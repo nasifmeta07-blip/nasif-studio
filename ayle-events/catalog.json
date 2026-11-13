@@ -1,0 +1,58 @@
+{
+  "shop": { "name": "AYLE EVENTS" },
+  "delivery": [
+    { "id": "pickup", "price": 0, "en": "Pickup · Ar Rubat St, Dahariz", "ar": "استلام · شارع الرباط، الدهاريز" },
+    { "id": "salalah", "price": 2000, "en": "Delivery / setup in Salalah", "ar": "توصيل / تجهيز داخل صلالة" },
+    { "id": "hotels", "price": 4000, "en": "Hawana, Taqah & Mughsail hotels", "ar": "فنادق هوانا وطاقة والمغسيل" }
+  ],
+  "addons": [
+    { "id": "cake", "price": 8000, "en": "Mini cake", "ar": "كيكة صغيرة", "icon": "🎂" },
+    { "id": "choco", "price": 5000, "en": "Chocolates", "ar": "شوكولاتة", "icon": "🍫" },
+    { "id": "teddy", "price": 6000, "en": "Teddy bear", "ar": "دبدوب", "icon": "🧸" },
+    { "id": "photo", "price": 25000, "en": "Photographer (1 hr)", "ar": "مصور (ساعة)", "icon": "📸" }
+  ],
+  "themes": [
+    { "id": "blush", "en": "Blush & white", "ar": "وردي وأبيض", "c": ["#F3C6CC", "#FFFFFF", "#E59AA8"] },
+    { "id": "red", "en": "Classic red", "ar": "أحمر كلاسيكي", "c": ["#C8283F", "#F6D3D8", "#8E1B2D"] },
+    { "id": "gold", "en": "Gold & ivory", "ar": "ذهبي وعاجي", "c": ["#E6CB8E", "#FFF8EA", "#C8A15A"] },
+    { "id": "lilac", "en": "Lilac dream", "ar": "ليلكي", "c": ["#C9B6E4", "#F4EEFB", "#9C80C9"] }
+  ],
+  "products": [
+    {
+      "id": "romantic", "kind": "setup", "art": "setup", "addons": true,
+      "en": { "name": "Romantic Surprise", "desc": "Petals, candles, balloons and a flower arch, set up in your hotel room or on the beach.", "tag": "Most booked", "group": "setups" },
+      "ar": { "name": "مفاجأة رومانسية", "desc": "ورود وشموع وبالونات وقوس ورد، نجهزها في غرفة الفندق أو على البحر.", "tag": "الأكثر حجزاً", "group": "setups" },
+      "sizes": [ { "id": "classic", "price": 45000 }, { "id": "deluxe", "price": 75000 } ]
+    },
+    {
+      "id": "birthday", "kind": "setup", "art": "balloons", "addons": true,
+      "en": { "name": "Birthday Surprise", "desc": "Balloon garland, name banner and table styling. Wake them up to a party.", "tag": "", "group": "setups" },
+      "ar": { "name": "مفاجأة عيد ميلاد", "desc": "بالونات وبنر بالاسم وتنسيق طاولة. خلّهم يصحون على حفلة.", "tag": "", "group": "setups" },
+      "sizes": [ { "id": "classic", "price": 35000 }, { "id": "deluxe", "price": 60000 } ]
+    },
+    {
+      "id": "proposal", "kind": "setup", "art": "proposal", "addons": true,
+      "en": { "name": "Proposal Setup", "desc": "Rose aisle, candle path and a glowing 'Marry me'. We keep it secret.", "tag": "Premium", "group": "setups" },
+      "ar": { "name": "تجهيز طلب زواج", "desc": "ممر ورد وشموع ولوحة مضيئة. وكل شي سري.", "tag": "مميز", "group": "setups" },
+      "sizes": [ { "id": "classic", "price": 120000 }, { "id": "deluxe", "price": 180000 } ]
+    },
+    {
+      "id": "roses", "kind": "gift", "art": "bouquet", "addons": true,
+      "en": { "name": "Rose Bouquet", "desc": "Fresh roses, hand-tied and wrapped in your colour.", "tag": "Bestseller", "group": "gifts" },
+      "ar": { "name": "باقة ورد", "desc": "ورد طازج مربوط باليد ومغلف بلونك المفضل.", "tag": "الأكثر مبيعاً", "group": "gifts" },
+      "sizes": [ { "id": "r12", "price": 15000 }, { "id": "r24", "price": 25000 }, { "id": "r50", "price": 45000 } ]
+    },
+    {
+      "id": "flowerbox", "kind": "gift", "art": "box", "addons": true,
+      "en": { "name": "Flower Box", "desc": "A round hat box packed with roses. Lasts for days.", "tag": "", "group": "gifts" },
+      "ar": { "name": "بوكس ورد", "desc": "علبة دائرية مليانة ورد. تعيش أيام.", "tag": "", "group": "gifts" },
+      "sizes": [ { "id": "small", "price": 18000 }, { "id": "large", "price": 30000 } ]
+    },
+    {
+      "id": "giftbox", "kind": "gift", "art": "choco", "addons": false,
+      "en": { "name": "Chocolate & Roses", "desc": "Premium chocolates and roses in one gift box.", "tag": "New", "group": "gifts" },
+      "ar": { "name": "شوكولاتة وورد", "desc": "شوكولاتة فاخرة مع ورد في علبة هدية واحدة.", "tag": "جديد", "group": "gifts" },
+      "sizes": [ { "id": "small", "price": 22000 }, { "id": "large", "price": 35000 } ]
+    }
+  ]
+}
