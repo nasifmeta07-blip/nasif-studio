@@ -1,0 +1,93 @@
+{
+  "shop": {
+    "name_en": "Sukkar & Saffron",
+    "name_ar": "سكر وزعفران",
+    "currency": "OMR"
+  },
+  "products": [
+    {
+      "id": "kunafa",
+      "emoji": "🥧",
+      "tint": "#F6D9A8",
+      "price": 4500,
+      "unit_en": "tray · serves 6",
+      "unit_ar": "صينية · تكفي ٦",
+      "name_en": "Pistachio Kunafa",
+      "name_ar": "كنافة بالفستق",
+      "desc_en": "Crispy golden kataifi, soft cheese, a heavy hand of pistachio.",
+      "desc_ar": "كنافة ذهبية مقرمشة بالجبن والفستق الحلبي.",
+      "tag_en": "Bestseller",
+      "tag_ar": "الأكثر طلباً"
+    },
+    {
+      "id": "datecake",
+      "emoji": "🎂",
+      "tint": "#E9C6A5",
+      "price": 6000,
+      "unit_en": "8-inch cake",
+      "unit_ar": "كيكة ٨ إنش",
+      "name_en": "Omani Date Cake",
+      "name_ar": "كيكة التمر العماني",
+      "desc_en": "Sticky date sponge with warm caramel and a pinch of cardamom.",
+      "desc_ar": "كيكة تمر طرية بالكراميل ولمسة هيل.",
+      "tag_en": "",
+      "tag_ar": ""
+    },
+    {
+      "id": "fudge",
+      "emoji": "🍰",
+      "tint": "#D9B8A6",
+      "price": 7500,
+      "unit_en": "8-inch cake",
+      "unit_ar": "كيكة ٨ إنش",
+      "name_en": "Chocolate Fudge Cake",
+      "name_ar": "كيكة الشوكولاتة",
+      "desc_en": "Three dark layers, silky ganache. For birthdays and bad days.",
+      "desc_ar": "ثلاث طبقات شوكولاتة مع جاناش ناعم.",
+      "tag_en": "",
+      "tag_ar": ""
+    },
+    {
+      "id": "luqaimat",
+      "emoji": "🍯",
+      "tint": "#F3E0B5",
+      "price": 1500,
+      "unit_en": "box of 20",
+      "unit_ar": "علبة ٢٠ حبة",
+      "name_en": "Luqaimat",
+      "name_ar": "لقيمات",
+      "desc_en": "Fried to order, drizzled in date syrup and sesame.",
+      "desc_ar": "لقيمات طازجة بدبس التمر والسمسم.",
+      "tag_en": "Under 2 OMR",
+      "tag_ar": "أقل من ٢ ريال"
+    },
+    {
+      "id": "maamoul",
+      "emoji": "🍪",
+      "tint": "#EAD7BE",
+      "price": 3000,
+      "unit_en": "box of 12",
+      "unit_ar": "علبة ١٢ حبة",
+      "name_en": "Assorted Maamoul",
+      "name_ar": "معمول مشكّل",
+      "desc_en": "Date, walnut and pistachio. Buttery, crumbly, perfect with gahwa.",
+      "desc_ar": "تمر وجوز وفستق. مثالي مع القهوة.",
+      "tag_en": "",
+      "tag_ar": ""
+    },
+    {
+      "id": "saffroncup",
+      "emoji": "🧁",
+      "tint": "#F5D58E",
+      "price": 2400,
+      "unit_en": "box of 6",
+      "unit_ar": "علبة ٦ حبات",
+      "name_en": "Saffron Cupcakes",
+      "name_ar": "كب كيك بالزعفران",
+      "desc_en": "Saffron-milk sponge, rose cream, tiny gold crumbs.",
+      "desc_ar": "كب كيك بحليب الزعفران وكريمة الورد.",
+      "tag_en": "New",
+      "tag_ar": "جديد"
+    }
+  ]
+}

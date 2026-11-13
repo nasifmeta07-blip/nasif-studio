@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order status · Cakes &amp; Dreams</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FBF7F4;font-family:Inter,system-ui,sans-serif;color:#2A1A20;padding:20px}
+  .box{background:#FFFDF9;border:1px solid #EADFD2;border-radius:24px;padding:36px 28px;max-width:420px;width:100%;text-align:center;box-shadow:0 10px 30px -12px rgba(59,31,43,.25)}
+  .ic{font-size:56px}
+  h1{font-family:"Playfair Display",Georgia,serif;color:#2B1D2E;margin:12px 0 6px;font-size:30px}
+  p{color:#7A6670;margin:6px 0}
+  .ref{display:inline-block;margin-top:12px;background:#EFE7F8;color:#5E3F87;font-weight:700;padding:6px 12px;border-radius:999px;font-size:14px}
+  a{display:inline-flex;margin-top:22px;height:48px;padding:0 22px;align-items:center;border-radius:14px;background:#2B1D2E;color:#fff;text-decoration:none;font-weight:700}
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="ic" id="ic">⏳</div>
+  <h1 id="h">Checking your payment…</h1>
+  <p id="p">One second, we're confirming with Thawani.</p>
+  <span class="ref" id="ref" hidden></span><br>
+  <a href="./">Back to the shop</a>
+</div>
+<script>
+(async () => {
+  const ref = new URLSearchParams(location.search).get('ref') || '';
+  const set = (ic, h, p) => { document.getElementById('ic').textContent = ic; document.getElementById('h').textContent = h; document.getElementById('p').textContent = p; };
+  try {
+    const r = await fetch('/api/order?ref=' + encodeURIComponent(ref));
+    const o = await r.json();
+    if (!r.ok) throw 0;
+    if (o.status === 'paid') {
+      try { localStorage.removeItem('cd_cart'); } catch (e) {}
+      set('🎉', 'Order confirmed!', `Thanks ${o.name || ''}, we got ${(o.total/1000).toFixed(3)} OMR. Pickup: ${o.pickup || 'as chosen'}.`);
+      const el = document.getElementById('ref'); el.textContent = 'Order ' + o.ref; el.hidden = false;
+    } else {
+      set('⚠️', 'Payment not completed', 'Thawani hasn\'t marked this order as paid. You can go back and try again.');
+    }
+  } catch (e) {
+    set('⚠️', 'Couldn\'t check this order', 'If you were charged, message us with your phone number and we\'ll sort it out.');
+  }
+})();
+</script>
+</body>
+</html>

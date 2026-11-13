@@ -1,0 +1,46 @@
+{
+  "shop": { "name": "Cakes And Dreams", "tagline": "Baked Fresh For You" },
+  "delivery": [
+    { "id": "pickup", "price": 0, "en": "Pickup · As Salam St, Gharbia", "ar": "استلام · شارع السلام، الغربية" },
+    { "id": "salalah", "price": 1000, "en": "Delivery in Salalah", "ar": "توصيل داخل صلالة" },
+    { "id": "hotels", "price": 3000, "en": "Delivery to Hawana / Taqah hotels", "ar": "توصيل لفنادق هوانا / طاقة" }
+  ],
+  "products": [
+    {
+      "id": "ube", "art": { "sponge": "#8E6BB8", "cream": "#EADCF7", "drip": "#6B4A97", "top": "dollops", "accent": "#B794E0" },
+      "en": { "name": "Ube Dream Cake", "desc": "Purple yam sponge, ube cream, not too sweet. Our customers' favourite.", "tag": "Signature" },
+      "ar": { "name": "كيكة أوبي دريم", "desc": "كيكة اليام البنفسجي بكريمة الأوبي، حلاوتها خفيفة. المفضلة عند زبائننا.", "tag": "الأشهر" },
+      "sizes": [ { "id": "1kg", "price": 8000 }, { "id": "1.5kg", "price": 11000 }, { "id": "2kg", "price": 14000 } ]
+    },
+    {
+      "id": "choco", "art": { "sponge": "#5A3524", "cream": "#8B5A3C", "drip": "#3A2016", "top": "shards", "accent": "#C9A27E" },
+      "en": { "name": "Chocolate Heaven", "desc": "Dark, moist and fudgy. The one people call 'a piece of heaven'.", "tag": "Bestseller" },
+      "ar": { "name": "شوكولاتة الجنة", "desc": "شوكولاتة داكنة وطرية، اللي يسمونها «قطعة من الجنة».", "tag": "الأكثر مبيعاً" },
+      "sizes": [ { "id": "1kg", "price": 7500 }, { "id": "1.5kg", "price": 10500 }, { "id": "2kg", "price": 13500 } ]
+    },
+    {
+      "id": "mango", "art": { "sponge": "#FFF4D6", "cream": "#FFFFFF", "drip": "#F6B93B", "top": "cubes", "accent": "#FFD36E" },
+      "en": { "name": "Mango Cream Cake", "desc": "Light vanilla chiffon, fresh cream and sweet mango on top.", "tag": "" },
+      "ar": { "name": "كيكة المانجو بالكريمة", "desc": "كيكة فانيلا خفيفة بالكريمة الطازجة والمانجو.", "tag": "" },
+      "sizes": [ { "id": "1kg", "price": 7000 }, { "id": "1.5kg", "price": 10000 }, { "id": "2kg", "price": 13000 } ]
+    },
+    {
+      "id": "redvelvet", "art": { "sponge": "#B0273B", "cream": "#FBF3EC", "drip": "#FBF3EC", "top": "berries", "accent": "#E0475C" },
+      "en": { "name": "Red Velvet", "desc": "Soft cocoa crumb, cream cheese frosting, fresh berries.", "tag": "" },
+      "ar": { "name": "ريد فيلفيت", "desc": "كيكة طرية بكريمة الجبن والتوت الطازج.", "tag": "" },
+      "sizes": [ { "id": "1kg", "price": 7000 }, { "id": "1.5kg", "price": 10000 }, { "id": "2kg", "price": 13000 } ]
+    },
+    {
+      "id": "flan", "art": { "sponge": "#F3D18A", "cream": "#FFF1CF", "drip": "#B9651E", "top": "glaze", "accent": "#D98B2B" },
+      "en": { "name": "Leche Flan Cake", "desc": "Chiffon base topped with silky caramel custard.", "tag": "New" },
+      "ar": { "name": "كيكة ليتشي فلان", "desc": "كيكة شيفون مع طبقة كاسترد بالكراميل.", "tag": "جديد" },
+      "sizes": [ { "id": "1kg", "price": 7500 }, { "id": "1.5kg", "price": 10500 }, { "id": "2kg", "price": 13500 } ]
+    },
+    {
+      "id": "cupcakes", "art": { "sponge": "#F1C7D3", "cream": "#FFFFFF", "drip": "#F7A8C0", "top": "sprinkles", "accent": "#8E6BB8" },
+      "en": { "name": "Cupcake Box", "desc": "Mixed flavours: ube, chocolate and vanilla. Perfect for the office.", "tag": "" },
+      "ar": { "name": "علبة كب كيك", "desc": "نكهات مشكلة: أوبي وشوكولاتة وفانيلا. مثالية للمكتب.", "tag": "" },
+      "sizes": [ { "id": "box6", "price": 3000 }, { "id": "box12", "price": 5500 } ]
+    }
+  ]
+}

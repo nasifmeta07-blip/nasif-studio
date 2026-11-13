@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sukkar & Saffron · Home sweets, paid online</title>
+<meta name="description" content="Home-made kunafa, cakes and luqaimat. Order online, pay with Thawani, pick up fresh.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#3B1F2B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF5EC; --paper:#FFFDF9; --plum:#3B1F2B; --plum-2:#5A3345; --saffron:#E0A526;
+    --saffron-soft:#FBEBC4; --ink:#2A1A20; --muted:#7A6670; --line:#EADFD2; --ok:#2F7D4F; --err:#B4372F;
+    --r:18px; --shadow:0 10px 30px -12px rgba(59,31,43,.25);
+    --display:"Fraunces",Georgia,serif; --body:"Inter",system-ui,sans-serif;
+  }
+  html[dir="rtl"]{ --display:"Tajawal",system-ui,sans-serif; --body:"Tajawal",system-ui,sans-serif; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:var(--body);background:var(--cream);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+  input,select{font:inherit;color:inherit}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  .ribbon{background:var(--plum);color:#F4E6D8;font-size:13px;text-align:center;padding:7px 12px}
+  .ribbon b{color:var(--saffron)}
+
+  header{position:sticky;top:0;z-index:20;background:rgba(251,245,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;gap:12px;height:66px}
+  .logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:20px;color:var(--plum)}
+  .mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#F7CF6B,var(--saffron) 60%,#B97E10);display:grid;place-items:center;color:var(--plum);font-size:15px;font-weight:800;box-shadow:inset 0 -3px 0 rgba(0,0,0,.12)}
+  .spacer{flex:1}
+  .pill{height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:8px}
+  .pill:hover{border-color:var(--plum-2)}
+  .cartbtn{background:var(--plum);color:#fff;border-color:var(--plum)}
+  .badge{min-width:22px;height:22px;border-radius:999px;background:var(--saffron);color:var(--plum);font-size:12px;font-weight:800;display:grid;place-items:center;padding:0 6px}
+
+  .hero{padding-top:56px;padding-bottom:40px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+  .eyebrow{display:inline-flex;gap:8px;align-items:center;background:var(--saffron-soft);color:#7A5205;font-weight:600;font-size:13px;padding:6px 12px;border-radius:999px}
+  h1{font-family:var(--display);font-size:clamp(38px,6vw,64px);line-height:1.02;color:var(--plum);margin:18px 0 16px;letter-spacing:-.02em}
+  h1 em{font-style:normal;color:var(--saffron);background:linear-gradient(transparent 70%,rgba(224,165,38,.22) 0)}
+  .lead{font-size:18px;color:var(--muted);max-width:30ch}
+  .cta{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{height:52px;padding:0 24px;border-radius:14px;font-weight:700;font-size:16px;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:transform .15s,box-shadow .15s}
+  .btn:active{transform:translateY(1px)}
+  .btn-main{background:var(--plum);color:#fff;box-shadow:var(--shadow)}
+  .btn-main:hover{background:var(--plum-2)}
+  .btn-ghost{border:1.5px solid var(--plum);color:var(--plum)}
+  .facts{display:flex;gap:18px;margin-top:28px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+  .facts span{display:flex;gap:6px;align-items:center}
+  .plate{aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 45%,#fff 0 46%,#F3E6D6 47% 62%,var(--saffron-soft) 63%);display:grid;place-items:center;position:relative;box-shadow:var(--shadow)}
+  .plate .big{font-size:clamp(90px,14vw,150px);filter:drop-shadow(0 12px 14px rgba(59,31,43,.25));animation:bob 4s ease-in-out infinite}
+  .plate .orb{position:absolute;font-size:38px;animation:bob 5s ease-in-out infinite}
+  .orb.a{top:8%;left:12%}.orb.b{bottom:10%;right:6%;animation-delay:-2s}.orb.c{top:16%;right:8%;animation-delay:-1s}
+  @keyframes bob{50%{transform:translateY(-8px)}}
+
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px;margin-bottom:56px}
+  .step{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;gap:14px;align-items:flex-start}
+  .num{flex:none;width:34px;height:34px;border-radius:10px;background:var(--plum);color:var(--saffron);display:grid;place-items:center;font-weight:800}
+  .step b{display:block;color:var(--plum)}
+  .step p{font-size:14px;color:var(--muted)}
+
+  .sechead{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:18px}
+  h2{font-family:var(--display);color:var(--plum);font-size:clamp(28px,4vw,40px);letter-spacing:-.01em}
+  .sub{color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:64px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .art{height:150px;display:grid;place-items:center;font-size:72px;position:relative}
+  .tag{position:absolute;top:12px;inset-inline-start:12px;background:var(--plum);color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px}
+  .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .body h3{font-family:var(--display);color:var(--plum);font-size:20px}
+  .unit{font-size:13px;color:var(--muted)}
+  .desc{font-size:14px;color:#5b4a52;flex:1}
+  .row{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+  .price{font-weight:800;font-size:18px;color:var(--plum)}
+  .price small{font-weight:600;font-size:12px;color:var(--muted)}
+  .add{height:42px;padding:0 16px;border-radius:12px;background:var(--saffron);color:var(--plum);font-weight:800}
+  .add:hover{filter:brightness(1.05)}
+  .stepper{display:flex;align-items:center;background:var(--plum);color:#fff;border-radius:12px;height:42px}
+  .stepper button{width:40px;height:42px;font-size:20px;font-weight:700}
+  .stepper span{min-width:24px;text-align:center;font-weight:800}
+
+  footer{background:var(--plum);color:#E9DCD2;padding:36px 0;font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  footer a{color:var(--saffron)}
+
+  /* cart drawer */
+  .scrim{position:fixed;inset:0;background:rgba(42,26,32,.45);opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+  .drawer{position:fixed;top:0;bottom:0;inset-inline-end:0;width:min(420px,100%);background:var(--paper);z-index:50;display:flex;flex-direction:column;transform:translateX(105%);transition:transform .28s cubic-bezier(.2,.8,.2,1);box-shadow:-20px 0 40px -20px rgba(0,0,0,.3)}
+  html[dir="rtl"] .drawer{transform:translateX(-105%)}
+  .open .scrim{opacity:1;pointer-events:auto}
+  .open .drawer{transform:none}
+  .dhead{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--line)}
+  .dhead h2{font-size:24px}
+  .x{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);font-size:20px}
+  .dbody{flex:1;overflow:auto;padding:14px 20px}
+  .empty{text-align:center;color:var(--muted);padding:40px 10px}
+  .empty div{font-size:48px}
+  .line{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px dashed var(--line)}
+  .line .ic{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:26px;flex:none}
+  .line .nm{flex:1;font-weight:600;font-size:15px}
+  .line .nm small{display:block;color:var(--muted);font-weight:500}
+  .line .stepper{height:34px;border-radius:10px}
+  .line .stepper button{width:32px;height:34px;font-size:17px}
+  form{margin-top:18px;display:grid;gap:12px}
+  label{font-size:13px;font-weight:600;color:var(--plum);display:grid;gap:6px}
+  .in{height:46px;border:1.5px solid var(--line);border-radius:12px;padding:0 12px;background:#fff;width:100%}
+  .in:focus{outline:none;border-color:var(--plum)}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .dfoot{border-top:1px solid var(--line);padding:16px 20px 20px;display:grid;gap:10px}
+  .total{display:flex;justify-content:space-between;font-weight:800;font-size:18px;color:var(--plum)}
+  .pay{height:54px;border-radius:14px;background:var(--plum);color:#fff;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;gap:10px}
+  .pay:disabled{opacity:.45;cursor:not-allowed}
+  .thw{background:#fff;color:var(--plum);border-radius:6px;padding:2px 7px;font-size:13px;font-weight:800}
+  .secure{font-size:12px;color:var(--muted);text-align:center}
+  .msg{font-size:13px;border-radius:10px;padding:10px 12px;display:none}
+  .msg.show{display:block}
+  .msg.err{background:#FBE7E5;color:var(--err)}
+  .spin{width:18px;height:18px;border:2.5px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+
+  @media (max-width:860px){
+    .hero{grid-template-columns:1fr;padding-top:32px}
+    .plate{width:min(260px,70vw);margin:0 auto;order:-1}
+    .plate .orb{font-size:28px}
+    .plate .big{font-size:96px}
+    .steps{grid-template-columns:1fr}
+    .grid{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:560px){
+    .grid{grid-template-columns:1fr}
+    .logo span.n{display:none}
+    .lead{font-size:16px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="ribbon" data-t="ribbon"></div>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Sukkar & Saffron"><span class="mark">S&amp;S</span><span class="n" data-t="shop"></span></a>
+    <div class="spacer"></div>
+    <button class="pill" id="lang" type="button"></button>
+    <button class="pill cartbtn" id="openCart" type="button"><span aria-hidden="true">🛍️</span><span data-t="cart"></span><span class="badge" id="count">0</span></button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div>
+      <span class="eyebrow"><span aria-hidden="true">✨</span><span data-t="eyebrow"></span></span>
+      <h1 data-t="h1" data-html></h1>
+      <p class="lead" data-t="lead"></p>
+      <div class="cta">
+        <a class="btn btn-main" href="#menu" data-t="ctaMenu"></a>
+        <button class="btn btn-ghost" type="button" data-open-cart data-t="ctaCart"></button>
+      </div>
+      <div class="facts">
+        <span>🕓 <span data-t="f1"></span></span>
+        <span>💳 <span data-t="f2"></span></span>
+        <span>📍 <span data-t="f3"></span></span>
+      </div>
+    </div>
+    <div class="plate" aria-hidden="true">
+      <span class="big">🍰</span><span class="orb a">🧁</span><span class="orb b">🍯</span><span class="orb c">🍪</span>
+    </div>
+  </section>
+
+  <section class="wrap steps" aria-label="How ordering works">
+    <div class="step"><span class="num">1</span><div><b data-t="s1"></b><p data-t="s1p"></p></div></div>
+    <div class="step"><span class="num">2</span><div><b data-t="s2"></b><p data-t="s2p"></p></div></div>
+    <div class="step"><span class="num">3</span><div><b data-t="s3"></b><p data-t="s3p"></p></div></div>
+  </section>
+
+  <section class="wrap" id="menu">
+    <div class="sechead">
+      <div><h2 data-t="menu"></h2><p class="sub" data-t="menuSub"></p></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b data-t="shop"></b> · <span data-t="footHours"></span></div>
+    <div data-t="footBuilt"></div>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Your order" aria-hidden="true">
+  <div class="dhead"><h2 data-t="yourOrder"></h2><button class="x" id="closeCart" type="button" aria-label="Close">✕</button></div>
+  <div class="dbody">
+    <div id="lines"></div>
+    <form id="form" novalidate>
+      <label><span data-t="name"></span><input class="in" id="name" autocomplete="name" required></label>
+      <label><span data-t="phone"></span><input class="in" id="phone" inputmode="tel" autocomplete="tel" placeholder="+968 9X XX XX XX" required></label>
+      <div class="two">
+        <label><span data-t="day"></span><select class="in" id="day"></select></label>
+        <label><span data-t="time"></span><select class="in" id="time"></select></label>
+      </div>
+    </form>
+  </div>
+  <div class="dfoot">
+    <div class="msg err" id="msg" role="alert"></div>
+    <div class="total"><span data-t="total"></span><span id="total">0.000 OMR</span></div>
+    <button class="pay" id="pay" type="button"><span data-t="pay"></span><span class="thw">Thawani</span></button>
+    <p class="secure" data-t="secure"></p>
+  </div>
+</aside>
+
+<script>
+const T = {
+  en: {
+    ribbon: 'Demo store · payments run in <b>Thawani test mode</b>, no real money moves',
+    shop: 'Sukkar & Saffron', cart: 'Order', eyebrow: 'Home-made in Muscat, every day',
+    h1: 'Sweets made at home. <em>Paid online.</em>',
+    lead: 'Kunafa, date cake and fresh luqaimat. Order here, pay by card with Thawani, pick it up warm.',
+    ctaMenu: 'See the menu', ctaCart: 'View order',
+    f1: 'Pickup 4–9 pm', f2: 'Card & Thawani Pay', f3: 'Al Khuwair, Muscat',
+    s1: 'Pick your sweets', s1p: 'Add anything from the menu to your order.',
+    s2: 'Pay with Thawani', s2p: 'Secure card payment, no cash, no bank transfer screenshots.',
+    s3: 'Pick it up fresh', s3p: 'Choose a time slot. We have it boxed and ready.',
+    menu: 'This week\'s menu', menuSub: 'Baked to order. Prices in Omani Rial.',
+    add: 'Add', yourOrder: 'Your order', emptyT: 'Nothing here yet', emptyP: 'Add something sweet from the menu.',
+    name: 'Your name', phone: 'Phone (for pickup updates)', day: 'Pickup day', time: 'Time',
+    total: 'Total', pay: 'Pay', secure: '🔒 You\'ll finish payment on Thawani\'s secure page.',
+    today: 'Today', tomorrow: 'Tomorrow',
+    footHours: 'Open daily 4–9 pm', footBuilt: 'Website by Nasif',
+    errForm: 'Please add your name and a valid phone number.',
+    errEmpty: 'Your order is empty.',
+    errNet: 'Checkout isn\'t connected in this preview. It works once the site is deployed with Thawani keys.',
+    lang: 'العربية'
+  },
+  ar: {
+    ribbon: 'متجر تجريبي · الدفع يعمل في <b>وضع الاختبار من ثواني</b> بدون أموال حقيقية',
+    shop: 'سكر وزعفران', cart: 'الطلب', eyebrow: 'حلويات بيتية من مسقط، كل يوم',
+    h1: 'حلويات من البيت. <em>والدفع أونلاين.</em>',
+    lead: 'كنافة وكيكة تمر ولقيمات طازجة. اطلب من هنا، ادفع بالبطاقة عبر ثواني، واستلمها دافية.',
+    ctaMenu: 'شوف القائمة', ctaCart: 'عرض الطلب',
+    f1: 'الاستلام ٤–٩ مساءً', f2: 'بطاقة وثواني', f3: 'الخوير، مسقط',
+    s1: 'اختر حلوياتك', s1p: 'أضف أي شيء من القائمة إلى طلبك.',
+    s2: 'ادفع عبر ثواني', s2p: 'دفع آمن بالبطاقة، بدون كاش أو صور تحويل.',
+    s3: 'استلمها طازجة', s3p: 'اختر وقت الاستلام وطلبك يكون جاهز.',
+    menu: 'قائمة هذا الأسبوع', menuSub: 'تُخبز حسب الطلب. الأسعار بالريال العماني.',
+    add: 'أضف', yourOrder: 'طلبك', emptyT: 'الطلب فاضي', emptyP: 'أضف شيء حلو من القائمة.',
+    name: 'الاسم', phone: 'رقم الهاتف', day: 'يوم الاستلام', time: 'الوقت',
+    total: 'المجموع', pay: 'ادفع', secure: '🔒 بتكمل الدفع في صفحة ثواني الآمنة.',
+    today: 'اليوم', tomorrow: 'بكرة',
+    footHours: 'مفتوح يومياً ٤–٩ مساءً', footBuilt: 'تصميم الموقع: نصيف',
+    errForm: 'اكتب اسمك ورقم هاتف صحيح.',
+    errEmpty: 'طلبك فاضي.',
+    errNet: 'الدفع غير متصل في هذه المعاينة. يشتغل بعد نشر الموقع مع مفاتيح ثواني.',
+    lang: 'English'
+  }
+};
+
+let lang = 'en', products = [], cart = {};
+const $ = (s) => document.querySelector(s);
+const store = { get(k){ try{return JSON.parse(localStorage.getItem(k))}catch(e){return null} }, set(k,v){ try{localStorage.setItem(k,JSON.stringify(v))}catch(e){} } };
+const omr = (b) => (b/1000).toFixed(3) + (lang==='ar' ? ' ر.ع' : ' OMR');
+const t = (k) => T[lang][k];
+
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  document.querySelectorAll('[data-t]').forEach(el => {
+    const v = t(el.dataset.t);
+    if (el.hasAttribute('data-html') || el.dataset.t === 'ribbon') el.innerHTML = v; else el.textContent = v;
+  });
+  $('#lang').textContent = t('lang');
+  buildSlots(); render();
+}
+
+function buildSlots(){
+  const day = $('#day'), time = $('#time'), keepD = day.value, keepT = time.value;
+  day.innerHTML = ''; time.innerHTML = '';
+  for (let i = 0; i < 3; i++){
+    const d = new Date(); d.setDate(d.getDate()+i);
+    const label = i===0 ? t('today') : i===1 ? t('tomorrow') : d.toLocaleDateString(lang==='ar'?'ar-OM':'en-GB',{weekday:'long'});
+    day.add(new Option(label, d.toISOString().slice(0,10)));
+  }
+  for (let h = 16; h <= 21; h++){
+    const lbl = (lang==='ar') ? `${h-12}:00 م` : `${h-12}:00 pm`;
+    time.add(new Option(lbl, `${h}:00`));
+  }
+  if (keepD) day.value = keepD; if (keepT) time.value = keepT;
+}
+
+function stepper(id, qty){
+  return `<div class="stepper"><button type="button" data-dec="${id}" aria-label="Less">−</button><span>${qty}</span><button type="button" data-inc="${id}" aria-label="More">+</button></div>`;
+}
+
+function render(){
+  $('#grid').innerHTML = products.map(p => {
+    const q = cart[p.id] || 0, tag = p['tag_'+lang];
+    return `<article class="card">
+      <div class="art" style="background:${p.tint}" aria-hidden="true">${tag?`<span class="tag">${tag}</span>`:''}${p.emoji}</div>
+      <div class="body">
+        <h3>${p['name_'+lang]}</h3><div class="unit">${p['unit_'+lang]}</div>
+        <p class="desc">${p['desc_'+lang]}</p>
+        <div class="row"><span class="price">${omr(p.price)}</span>
+          ${q ? stepper(p.id,q) : `<button class="add" type="button" data-inc="${p.id}">＋ ${t('add')}</button>`}
+        </div>
+      </div></article>`;
+  }).join('');
+
+  const ids = Object.keys(cart).filter(id => cart[id] > 0 && products.some(p => p.id === id));
+  const count = ids.reduce((s,id) => s + cart[id], 0);
+  const total = ids.reduce((s,id) => s + cart[id] * products.find(p => p.id === id).price, 0);
+  $('#count').textContent = count;
+  $('#total').textContent = omr(total);
+  $('#pay').disabled = !count;
+  $('#lines').innerHTML = ids.length ? ids.map(id => {
+    const p = products.find(x => x.id === id);
+    return `<div class="line"><span class="ic" style="background:${p.tint}">${p.emoji}</span>
+      <span class="nm">${p['name_'+lang]}<small>${omr(p.price*cart[id])}</small></span>${stepper(id,cart[id])}</div>`;
+  }).join('') : `<div class="empty"><div>🧁</div><b>${t('emptyT')}</b><p>${t('emptyP')}</p></div>`;
+  store.set('ss_cart', cart);
+}
+
+function openCart(v){ document.body.classList.toggle('open', v); $('#drawer').setAttribute('aria-hidden', String(!v)); }
+function showMsg(k){ const m = $('#msg'); m.textContent = k ? t(k) : ''; m.classList.toggle('show', !!k); }
+
+document.addEventListener('click', (e) => {
+  const inc = e.target.closest('[data-inc]'), dec = e.target.closest('[data-dec]');
+  if (inc){ const id = inc.dataset.inc; cart[id] = Math.min((cart[id]||0)+1, 50); render(); }
+  if (dec){ const id = dec.dataset.dec; cart[id] = Math.max((cart[id]||0)-1, 0); if (!cart[id]) delete cart[id]; render(); }
+  if (e.target.closest('[data-open-cart]')) openCart(true);
+});
+$('#openCart').onclick = () => openCart(true);
+$('#closeCart').onclick = () => openCart(false);
+$('#scrim').onclick = () => openCart(false);
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') openCart(false); });
+$('#lang').onclick = () => { lang = lang === 'en' ? 'ar' : 'en'; store.set('ss_lang', lang); applyLang(); };
+
+$('#pay').onclick = async () => {
+  showMsg('');
+  const items = Object.entries(cart).filter(([,q]) => q > 0).map(([id,qty]) => ({id, qty}));
+  const name = $('#name').value.trim(), phone = $('#phone').value.trim();
+  if (!items.length) return showMsg('errEmpty');
+  if (!name || !/^\+?\d[\d\s]{6,14}$/.test(phone)) return showMsg('errForm');
+  const btn = $('#pay'), old = btn.innerHTML;
+  btn.disabled = true; btn.innerHTML = '<span class="spin"></span>';
+  try{
+    const r = await fetch('/api/checkout', { method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ shop: 'sukkar-saffron', items, name, phone, pickup: `${$('#day').value} ${$('#time').value}` }) });
+    const data = await r.json();
+    if (!r.ok || !data.url) throw new Error(data.error || 'fail');
+    window.location.href = data.url;
+  }catch(err){
+    showMsg('errNet'); btn.disabled = false; btn.innerHTML = old;
+  }
+};
+
+(async function init(){
+  lang = store.get('ss_lang') || 'en';
+  cart = store.get('ss_cart') || {};
+  try{ products = (await (await fetch('catalog.json')).json()).products; }
+  catch(e){ products = []; }
+  applyLang();
+})();
+</script>
+</body>
+</html>
