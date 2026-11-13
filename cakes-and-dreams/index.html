@@ -6,14 +6,14 @@
 <title>Cakes And Dreams · Baked Fresh For You · Salalah</title>
 <meta name="description" content="Order ube, chocolate and celebration cakes online in Salalah. Pay securely with Thawani. Pickup or delivery, even to Hawana hotels.">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#2B1D2E">
+<meta name="theme-color" content="#3A2530">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#FBF7F4; --card:#FFFFFF; --ink:#2B1D2E; --ink-2:#5B4A5E; --muted:#8D7F90;
-  --ube:#7A55A8; --ube-d:#5E3F87; --lav:#EFE7F8; --blush:#F7E6EA; --gold:#C9A46A; --line:#EEE5DF;
+  --bg:#FFF8F7; --card:#FFFFFF; --ink:#3A2530; --ink-2:#6A5359; --muted:#9A8489;
+  --ube:#D6577E; --ube-d:#B53D63; --lav:#FDE8EE; --blush:#F7E6EA; --gold:#5FC2A2; --line:#F2E3E3;
   --ok:#2F7D4F; --err:#B4372F;
   --display:"Playfair Display",Georgia,serif; --body:"DM Sans",system-ui,sans-serif;
   --r:22px; --sh:0 18px 40px -22px rgba(43,29,46,.35); --sh-s:0 6px 18px -10px rgba(43,29,46,.3);
@@ -32,15 +32,15 @@ img,svg{display:block}
 html[dir="rtl"] .serif-i{font-family:"Tajawal";font-style:normal;font-weight:800}
 
 /* concept ribbon */
-.ribbon{background:var(--ink);color:#E9DDEB;font-size:12.5px;text-align:center;padding:8px 14px;letter-spacing:.01em}
-.ribbon b{color:#D9C2F2;font-weight:700}
+.ribbon{background:var(--ink);color:#FBE3EA;font-size:12.5px;text-align:center;padding:8px 14px;letter-spacing:.01em}
+.ribbon b{color:#BFEBDD;font-weight:700}
 
 /* nav */
 header{position:sticky;top:0;z-index:30;background:rgba(251,247,244,.86);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid transparent;transition:border-color .2s}
 header.scrolled{border-color:var(--line)}
 .nav{height:72px;display:flex;align-items:center;gap:22px}
 .brand{display:flex;align-items:center;gap:11px}
-.brand-mark{width:40px;height:40px;border-radius:13px;background:linear-gradient(145deg,#9673C4,var(--ube-d));display:grid;place-items:center;box-shadow:inset 0 -3px 0 rgba(0,0,0,.15),var(--sh-s)}
+.brand-mark{width:40px;height:40px;border-radius:13px;background:linear-gradient(145deg,#F08DAA,var(--ube-d));display:grid;place-items:center;box-shadow:inset 0 -3px 0 rgba(0,0,0,.15),var(--sh-s)}
 .brand-name{font-family:var(--display);font-size:21px;font-weight:700;letter-spacing:-.01em;line-height:1}
 .brand-name small{display:block;font-family:var(--body);font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
 html[dir="rtl"] .brand-name small{letter-spacing:0}
@@ -48,10 +48,10 @@ html[dir="rtl"] .brand-name small{letter-spacing:0}
 .links a:hover{color:var(--ube)}
 .sp{flex:1}
 .chip{height:42px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:#fff;font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:border-color .2s,transform .15s}
-.chip:hover{border-color:#CDBBDE}
+.chip:hover{border-color:#EBB9C8}
 .cart-chip{background:var(--ink);color:#fff;border-color:var(--ink)}
 .cart-chip:hover{border-color:var(--ink);transform:translateY(-1px)}
-.count{min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:#D9C2F2;color:var(--ink);font-size:12px;font-weight:800;display:grid;place-items:center}
+.count{min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:#BFEBDD;color:var(--ink);font-size:12px;font-weight:800;display:grid;place-items:center}
 .count.bump{animation:bump .35s}
 @keyframes bump{40%{transform:scale(1.35)}}
 
@@ -66,20 +66,20 @@ h1 .serif-i{color:var(--ube)}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
 .btn{height:56px;padding:0 28px;border-radius:16px;font-weight:700;font-size:16px;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:transform .15s,box-shadow .2s,background .2s}
 .btn:active{transform:translateY(1px)}
-.btn-p{background:var(--ube);color:#fff;box-shadow:0 14px 28px -14px rgba(122,85,168,.9)}
+.btn-p{background:var(--ube);color:#fff;box-shadow:0 14px 28px -14px rgba(214,87,126,.85)}
 .btn-p:hover{background:var(--ube-d)}
 .btn-g{background:#fff;border:1px solid var(--line);color:var(--ink)}
-.btn-g:hover{border-color:#CDBBDE}
+.btn-g:hover{border-color:#EBB9C8}
 .trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;font-size:14px;color:var(--ink-2)}
 .trust span{display:flex;align-items:center;gap:8px}
 .trust svg{flex:none}
 .stage{position:relative;aspect-ratio:1/1.02;max-width:520px;margin-inline-start:auto;width:100%}
-.arch{position:absolute;inset:4% 8% 0;border-radius:999px 999px 36px 36px;background:linear-gradient(180deg,#EADFF7 0%,#F6EEF9 55%,#FBF4F1 100%);box-shadow:inset 0 0 0 1px rgba(122,85,168,.08)}
-.arch::after{content:"";position:absolute;inset:14px;border-radius:inherit;border:1.5px dashed rgba(122,85,168,.22)}
+.arch{position:absolute;inset:4% 8% 0;border-radius:999px 999px 36px 36px;background:linear-gradient(180deg,#FBD9E3 0%,#FDEDF1 50%,#E8F7F1 100%);box-shadow:inset 0 0 0 1px rgba(214,87,126,.10)}
+.arch::after{content:"";position:absolute;inset:14px;border-radius:inherit;border:1.5px dashed rgba(95,194,162,.45)}
 .hero-cake{position:absolute;left:6%;right:6%;bottom:6%;filter:drop-shadow(0 30px 30px rgba(43,29,46,.18));animation:float 6s ease-in-out infinite}
 @keyframes float{50%{transform:translateY(-10px)}}
 .spark{position:absolute;color:var(--gold);animation:tw 3.2s ease-in-out infinite}
-.spark.a{top:12%;left:14%}.spark.b{top:26%;right:10%;animation-delay:-1.2s}.spark.c{top:8%;right:30%;animation-delay:-2s;color:#B794E0}
+.spark.a{top:12%;left:14%}.spark.b{top:26%;right:10%;animation-delay:-1.2s}.spark.c{top:8%;right:30%;animation-delay:-2s;color:#F08DAA}
 @keyframes tw{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
 .badge{position:absolute;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:var(--sh);display:flex;align-items:center;gap:10px;font-size:13.5px;font-weight:600}
 .badge{width:max-content}
@@ -131,12 +131,12 @@ html[dir="rtl"] .step .n{font-style:normal}
 .step p{color:var(--ink-2);font-size:15px}
 
 /* custom band */
-.band{margin-top:96px;border-radius:32px;background:radial-gradient(120% 140% at 0% 0%,#8C68BD 0%,#5E3F87 55%,#3F2A5C 100%);color:#fff;padding:52px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;position:relative;overflow:hidden}
-.band::before{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:rgba(255,255,255,.06);right:-90px;top:-140px}
+.band{margin-top:96px;border-radius:32px;background:radial-gradient(120% 140% at 0% 0%,#F08DAA 0%,#C9466F 55%,#8E2F50 100%);color:#fff;padding:52px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;position:relative;overflow:hidden}
+.band::before{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:rgba(255,255,255,.08);right:-90px;top:-140px}
 .band h3{font-family:var(--display);font-size:clamp(28px,3.4vw,40px);line-height:1.1;letter-spacing:-.01em}
-.band p{color:#E6DAF3;margin-top:12px;max-width:44ch}
+.band p{color:#FFE3EB;margin-top:12px;max-width:44ch}
 .band .btn{background:#fff;color:var(--ink);justify-self:end;position:relative}
-.band .btn:hover{background:#F3ECFA}
+.band .btn:hover{background:#FFF0F4}
 
 /* reviews */
 .reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
@@ -159,10 +159,10 @@ html[dir="rtl"] .rev q{font-size:19px}
 .road{position:absolute;background:#fff;box-shadow:0 0 0 1px #ECE2DA}
 .pin{position:absolute;left:50%;top:44%;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center}
 .pin .bubble{background:var(--ink);color:#fff;font-weight:700;font-size:14px;padding:10px 14px;border-radius:14px;white-space:nowrap;box-shadow:var(--sh)}
-.pin .stem{width:16px;height:16px;background:var(--ube);border:4px solid #fff;border-radius:50%;margin-top:10px;box-shadow:0 0 0 8px rgba(122,85,168,.18)}
+.pin .stem{width:16px;height:16px;background:var(--ube);border:4px solid #fff;border-radius:50%;margin-top:10px;box-shadow:0 0 0 8px rgba(214,87,126,.2)}
 .mapcard .btn{position:absolute;left:24px;right:24px;bottom:24px}
 
-footer{margin-top:96px;background:var(--ink);color:#D9CDDC;padding:44px 0}
+footer{margin-top:96px;background:var(--ink);color:#F2D9E0;padding:44px 0}
 footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:14px}
 footer b{color:#fff;font-family:var(--display);font-size:20px}
 
@@ -181,7 +181,7 @@ footer b{color:#fff;font-family:var(--display);font-size:20px}
 .size{border:1.5px solid var(--line);border-radius:14px;padding:10px 14px;text-align:start;min-width:96px;transition:.15s}
 .size b{display:block;font-size:15px}
 .size span{font-size:13px;color:var(--muted)}
-.size[aria-pressed="true"]{border-color:var(--ube);background:var(--lav);box-shadow:0 0 0 3px rgba(122,85,168,.12)}
+.size[aria-pressed="true"]{border-color:var(--ube);background:var(--lav);box-shadow:0 0 0 3px rgba(214,87,126,.14)}
 .in{width:100%;height:50px;border:1.5px solid var(--line);border-radius:14px;padding:0 14px;background:#fff;transition:border-color .15s}
 .in:focus{outline:none;border-color:var(--ube)}
 .hint{font-size:12px;color:var(--muted);margin-top:6px}
@@ -212,7 +212,7 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
 .sec{margin-top:22px}
 .ful{display:grid;gap:10px}
 .opt{display:flex;align-items:center;gap:12px;border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;text-align:start;width:100%}
-.opt .r{width:20px;height:20px;border-radius:50%;border:2px solid #CFC3D3;flex:none;display:grid;place-items:center}
+.opt .r{width:20px;height:20px;border-radius:50%;border:2px solid #E6C3CE;flex:none;display:grid;place-items:center}
 .opt[aria-pressed="true"]{border-color:var(--ube);background:var(--lav)}
 .opt[aria-pressed="true"] .r{border-color:var(--ube)}
 .opt[aria-pressed="true"] .r::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--ube)}
@@ -241,7 +241,7 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
 .ps.on .ps-card{transform:none}
 .ps-top{background:var(--ink);color:#fff;padding:22px 24px;display:flex;align-items:center;gap:12px}
 .ps-top .lock{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.12);display:grid;place-items:center}
-.ps-top b{display:block;font-size:17px}.ps-top small{color:#CFC3D3;font-size:12.5px}
+.ps-top b{display:block;font-size:17px}.ps-top small{color:#E6C3CE;font-size:12.5px}
 .ps-body{padding:24px;display:grid;gap:16px}
 .ps-demo{background:var(--lav);color:var(--ube-d);border-radius:14px;padding:12px 14px;font-size:13px;font-weight:600}
 .ps-row{display:flex;justify-content:space-between;font-size:15px;color:var(--ink-2)}
@@ -252,12 +252,12 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
 .ps-pay{height:56px;border-radius:16px;background:var(--ube);color:#fff;font-weight:800;font-size:16.5px;display:flex;align-items:center;justify-content:center;gap:10px}
 .ps-cancel{font-size:14px;color:var(--muted);text-align:center;padding:4px}
 .done{text-align:center;padding:26px 6px 10px}
-.done .tick{width:84px;height:84px;border-radius:50%;margin:0 auto 18px;background:radial-gradient(circle,#EADCF7,#D9C2F2);display:grid;place-items:center;animation:pop .5s cubic-bezier(.2,1.6,.4,1)}
+.done .tick{width:84px;height:84px;border-radius:50%;margin:0 auto 18px;background:radial-gradient(circle,#E3F6EF,#BFEBDD);display:grid;place-items:center;animation:pop .5s cubic-bezier(.2,1.6,.4,1)}
 @keyframes pop{0%{transform:scale(.4);opacity:0}100%{transform:none;opacity:1}}
 .done h4{font-family:var(--display);font-size:30px;line-height:1.1}
 .done p{color:var(--ink-2);margin-top:8px}
 .done .ref{display:inline-block;margin-top:14px;background:var(--lav);color:var(--ube-d);font-weight:800;padding:7px 14px;border-radius:999px;font-size:14px}
-.rcpt{margin-top:22px;border:1px dashed #D9CCE0;border-radius:18px;padding:16px;text-align:start;display:grid;gap:9px;font-size:14.5px}
+.rcpt{margin-top:22px;border:1px dashed #F0CAD6;border-radius:18px;padding:16px;text-align:start;display:grid;gap:9px;font-size:14.5px}
 .rcpt div{display:flex;justify-content:space-between;gap:10px}.rcpt span:first-child{color:var(--muted)}
 .rcpt div span:last-child{text-align:end;font-weight:600}
 .again{margin-top:20px;width:100%}
@@ -327,9 +327,9 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
         <a class="btn btn-g" id="waCustom" target="_blank" rel="noopener"><span data-t="ctaCustom"></span></a>
       </div>
       <div class="trust">
-        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" stroke="#7A55A8" stroke-width="1.8"/><path d="m9 12 2 2 4-4" stroke="#7A55A8" stroke-width="1.8" stroke-linecap="round"/></svg><span data-t="t1"></span></span>
-        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7" stroke="#7A55A8" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7" cy="17" r="2" stroke="#7A55A8" stroke-width="1.8"/><circle cx="17" cy="17" r="2" stroke="#7A55A8" stroke-width="1.8"/></svg><span data-t="t2"></span></span>
-        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#7A55A8" stroke-width="1.8"/><path d="M12 7v5l3 2" stroke="#7A55A8" stroke-width="1.8" stroke-linecap="round"/></svg><span data-t="t3"></span></span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z" stroke="#D6577E" stroke-width="1.8"/><path d="m9 12 2 2 4-4" stroke="#D6577E" stroke-width="1.8" stroke-linecap="round"/></svg><span data-t="t1"></span></span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 7h11v8H3zM14 10h4l3 3v2h-7" stroke="#D6577E" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7" cy="17" r="2" stroke="#D6577E" stroke-width="1.8"/><circle cx="17" cy="17" r="2" stroke="#D6577E" stroke-width="1.8"/></svg><span data-t="t2"></span></span>
+        <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#D6577E" stroke-width="1.8"/><path d="M12 7v5l3 2" stroke="#D6577E" stroke-width="1.8" stroke-linecap="round"/></svg><span data-t="t3"></span></span>
       </div>
     </div>
     <div class="stage reveal" aria-hidden="true">
@@ -669,7 +669,7 @@ function renderCart(){
     return `<div class="line"><span class="thumb" style="background:${tint(p.art)}">${cakeSVG(p.art, p.id)}</span>
       <div class="info"><b>${p[lang].name}</b><small>${t("sizes")[c.size]}${c.msg ? ` · “${c.msg.replace(/</g,"&lt;")}”` : ""}</small><small>${omr(price(c.id, c.size) * c.qty)}</small></div>
       <div class="qty"><button type="button" data-dec="${i}" aria-label="Less">−</button><span>${c.qty}</span><button type="button" data-inc="${i}" aria-label="More">+</button></div></div>`; }).join("")
-    : `<div class="empty">${cakeSVG({sponge:"#EADCF7",cream:"#fff",drip:"#D9C2F2",top:"dollops",accent:"#B794E0"}, "e")}<b>${t("emptyT")}</b>${t("emptyP")}</div>`;
+    : `<div class="empty">${cakeSVG({sponge:"#FBD9E3",cream:"#fff",drip:"#BFEBDD",top:"dollops",accent:"#F08DAA"}, "e")}<b>${t("emptyT")}</b>${t("emptyP")}</div>`;
   $("#checkout").hidden = !cart.length;
   $("#ful").innerHTML = D.map(d => `<button type="button" class="opt" data-ful="${d.id}" aria-pressed="${d.id===ful}"><i class="r"></i><span>${d[lang]}</span><em>${d.price ? "+" + omr(d.price) : t("free")}</em></button>`).join("");
   $("#addrWrap").hidden = ful === "pickup";
@@ -735,7 +735,7 @@ $("#psPay").onclick = () => {
     const { tot } = totals(), ref = "CD-" + Math.floor(1000 + Math.random() * 9000);
     const d = D.find(x => x.id === ful), dayTxt = $("#day").selectedOptions[0].text + " · " + $("#time").selectedOptions[0].text;
     const n = cart.reduce((s, c) => s + c.qty, 0), esc = v => String(v).replace(/[<&]/g, c => c === "<" ? "&lt;" : "&amp;");
-    $("#lines").innerHTML = `<div class="done"><div class="tick"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.5 4.5L19 7.5" stroke="#5E3F87" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    $("#lines").innerHTML = `<div class="done"><div class="tick"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.5 4.5L19 7.5" stroke="#2F8A6C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
       <h4>${t("doneH")}</h4><p>${t("doneP")}</p><span class="ref">${t("doneRef")} ${ref}</span>
       <div class="rcpt"><div><span>${t("rItems")}</span><span>${n}</span></div><div><span>${t("rHow")}</span><span>${esc(d[lang])}</span></div><div><span>${t("rWhen")}</span><span>${esc(dayTxt)}</span></div><div><span>${t("rPaid")}</span><span>${omr(tot)}</span></div></div>
       <button type="button" class="btn btn-g again" id="again">${t("again")}</button></div>`;
@@ -751,7 +751,7 @@ const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.
   lang = st.get("cd_lang") || (navigator.language || "").startsWith("ar") && "ar" || "en";
   cart = st.get("cd_cart") || []; ful = st.get("cd_ful") || "pickup";
   try { const c = await (await fetch("catalog.json")).json(); P = c.products; D = c.delivery; } catch (e) {}
-  $("#heroCake").innerHTML = cakeSVG(P[0] ? P[0].art : {sponge:"#8E6BB8",cream:"#EADCF7",drip:"#6B4A97",top:"dollops",accent:"#B794E0"}, "hero");
+  $("#heroCake").innerHTML = cakeSVG({sponge:"#F7B3C6",cream:"#FFFFFF",drip:"#8FDCC2",top:"dollops",accent:"#E8668E"}, "hero");
   applyLang();
   document.querySelectorAll(".reveal").forEach(el => io ? io.observe(el) : el.classList.add("in-view"));
 })();
