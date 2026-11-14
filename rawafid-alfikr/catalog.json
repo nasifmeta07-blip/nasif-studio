@@ -1,0 +1,40 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "note": {
+   "a5": 600,
+   "a4": 900
+  },
+  "pens": {
+   "pk": 1200
+  },
+  "bag": {
+   "one": 9500
+  },
+  "geo": {
+   "set": 1800
+  },
+  "file": {
+   "pk": 1500
+  },
+  "paper": {
+   "pk": 1900
+  },
+  "paint": {
+   "set": 2800
+  },
+  "pencil": {
+   "set": 2200
+  }
+ },
+ "addons": {
+  "cover": 300,
+  "giftbox": 500
+ },
+ "delivery": {
+  "pickup": 0,
+  "oman": 1000,
+  "gcc": 2500
+ }
+}
