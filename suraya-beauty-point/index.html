@@ -408,7 +408,7 @@ $("#pay").onclick=()=>{err("");if(!sel.length)return err("errEmpty");if(time==nu
   const {now}=tot();$("#psTot").textContent=omr(now);$("#psPay").textContent=`${t("psPayBtn")} ${omr(now)}`;$("#ps").classList.add("on");};
 $("#psCancel").onclick=()=>$("#ps").classList.remove("on");
 $("#psPay").onclick=()=>{$("#psPay").innerHTML='<span class="spin"></span>';
-  setTimeout(()=>{$("#ps").classList.remove("on");const {now}=tot(),ref="LX-"+Math.floor(1000+Math.random()*9000);
+  setTimeout(()=>{$("#ps").classList.remove("on");const {now}=tot(),ref="SB-"+Math.floor(1000+Math.random()*9000);
     const dd=new Date(day).toLocaleDateString(lang==="ar"?"ar-OM":"en-GB",{weekday:"short",day:"numeric",month:"short"});
     $("#lines").innerHTML=`<div class="done"><div class="tick"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"><path d="m5 12.5 4.5 4.5L19 7.5" stroke="#1F4A41" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h4>${t("doneH")}</h4><p>${t("doneP")}</p><span class="ref">${t("doneRef")} ${ref}</span>
      <div class="rcpt"><div><span>${t("rSvc")}</span><span>${sel.map(id=>svc(id)[lang]).join(", ")}</span></div><div><span>${t("rWhen")}</span><span>${dd} · ${lab(time)}</span></div><div><span>${t("rWho")}</span><span>${t("whoOpts")[who]}</span></div><div><span>${t("rPaid")}</span><span>${omr(now)}</span></div></div>
