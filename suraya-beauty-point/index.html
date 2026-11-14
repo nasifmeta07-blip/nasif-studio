@@ -116,7 +116,7 @@ html[dir="rtl"] .bar{padding:12px 20px 12px 12px}
 .scrim{position:fixed;inset:0;background:rgba(22,48,43,.5);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .25s;z-index:50}
 .show-drawer .scrim{opacity:1;pointer-events:auto}
 .drawer{position:fixed;top:0;bottom:0;inset-inline-end:0;width:min(480px,100%);background:#fff;z-index:60;display:flex;flex-direction:column;transform:translateX(105%);transition:transform .32s cubic-bezier(.2,.8,.2,1)}
-html[dir="rtl"] .drawer{transform:translateX(-105%)}.show-drawer .drawer{transform:none}
+html[dir="rtl"] .drawer{transform:translateX(-105%)}.show-drawer .drawer,html[dir="rtl"] .show-drawer .drawer{transform:none}
 .notrans .drawer{transition:none!important}
 .d-head{display:flex;justify-content:space-between;align-items:center;padding:22px 24px;border-bottom:1px solid var(--line)}
 .d-head h3{font-family:var(--display);font-weight:500;font-size:28px}
