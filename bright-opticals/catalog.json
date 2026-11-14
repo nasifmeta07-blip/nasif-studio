@@ -1,0 +1,128 @@
+{
+ "shop": {
+  "name": "Bright Opticals"
+ },
+ "deposit": 2000,
+ "categories": [
+  {
+   "id": "eye",
+   "en": "Eye tests",
+   "ar": "فحص النظر",
+   "icon": "face"
+  },
+  {
+   "id": "glasses",
+   "en": "Glasses",
+   "ar": "النظارات",
+   "icon": "sparkle"
+  },
+  {
+   "id": "lens",
+   "en": "Contact lenses",
+   "ar": "العدسات",
+   "icon": "face"
+  },
+  {
+   "id": "care",
+   "en": "Repairs",
+   "ar": "التصليح",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "eye",
+   "cat": "eye",
+   "min": 30,
+   "price": 3000,
+   "en": "Eye test",
+   "ar": "فحص نظر",
+   "den": "Full computerised eye exam.",
+   "dar": "فحص نظر كامل بالكمبيوتر.",
+   "pop": true
+  },
+  {
+   "id": "kidseye",
+   "cat": "eye",
+   "min": 30,
+   "price": 3000,
+   "en": "Kids eye test",
+   "ar": "فحص نظر أطفال",
+   "den": "Gentle test for children.",
+   "dar": "فحص لطيف للأطفال."
+  },
+  {
+   "id": "glasses",
+   "cat": "glasses",
+   "min": 20,
+   "price": 15000,
+   "en": "Prescription glasses",
+   "ar": "نظارة طبية",
+   "den": "Frame plus custom lenses.",
+   "dar": "إطار مع عدسات حسب القياس.",
+   "pop": true
+  },
+  {
+   "id": "progressive",
+   "cat": "glasses",
+   "min": 30,
+   "price": 35000,
+   "en": "Progressive lenses",
+   "ar": "عدسات متعددة البؤر",
+   "den": "Near and far in one pair.",
+   "dar": "للقريب والبعيد في نظارة وحدة."
+  },
+  {
+   "id": "sun",
+   "cat": "glasses",
+   "min": 15,
+   "price": 12000,
+   "en": "Sunglasses",
+   "ar": "نظارة شمسية",
+   "den": "UV protection, trendy frames.",
+   "dar": "حماية من الأشعة، وإطارات عصرية.",
+   "pop": true
+  },
+  {
+   "id": "bluecut",
+   "cat": "glasses",
+   "min": 15,
+   "price": 8000,
+   "en": "Blue-light lenses",
+   "ar": "عدسات حماية الشاشة",
+   "den": "Reduce eye strain from screens.",
+   "dar": "تقلل إجهاد العين من الشاشات."
+  },
+  {
+   "id": "contact",
+   "cat": "lens",
+   "min": 20,
+   "price": 8000,
+   "en": "Contact lens fitting",
+   "ar": "قياس عدسات لاصقة",
+   "den": "Fitting and trial pair.",
+   "dar": "قياس مع زوج تجريبي.",
+   "pop": true
+  },
+  {
+   "id": "monthly",
+   "cat": "lens",
+   "min": 10,
+   "price": 6000,
+   "en": "Monthly contact lenses",
+   "ar": "عدسات لاصقة شهرية",
+   "den": "Comfortable daily wear.",
+   "dar": "مريحة للاستخدام اليومي."
+  },
+  {
+   "id": "repair",
+   "cat": "care",
+   "min": 15,
+   "price": 1500,
+   "en": "Frame repair & adjust",
+   "ar": "تصليح وضبط إطار",
+   "den": "Fix and fit your frame.",
+   "dar": "تصليح وضبط الإطار."
+  }
+ ]
+}
