@@ -1,0 +1,34 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "ps5": {
+   "one": 180000
+  },
+  "switch": {
+   "one": 125000
+  },
+  "pad": {
+   "blk": 28000,
+   "wht": 28000
+  },
+  "storage": {
+   "tb1": 22000,
+   "tb2": 36000
+  },
+  "dock": {
+   "one": 9000
+  },
+  "game": {
+   "one": 18000
+  },
+  "card": {
+   "c10": 10500,
+   "c20": 21000
+  }
+ },
+ "addons": {
+  "warranty": 3000,
+  "setup": 1000
+ }
+}

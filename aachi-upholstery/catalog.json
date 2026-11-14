@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Aachi Upholstery"
+ },
+ "deposit": 1500,
+ "categories": [
+  {
+   "id": "cush",
+   "en": "Cushions",
+   "ar": "وسائد",
+   "icon": "heart"
+  },
+  {
+   "id": "sofa",
+   "en": "Sofas",
+   "ar": "كنب",
+   "icon": "sparkle"
+  },
+  {
+   "id": "custom",
+   "en": "Custom",
+   "ar": "تفصيل",
+   "icon": "leaf"
+  }
+ ],
+ "products": [
+  {
+   "id": "cover",
+   "cat": "cush",
+   "min": 30,
+   "price": 2500,
+   "en": "Cushion covers (set of 4)",
+   "ar": "أغطية وسائد (٤ قطع)",
+   "den": "Made to measure in your fabric.",
+   "dar": "تفصيل حسب المقاس بقماشك.",
+   "pop": true
+  },
+  {
+   "id": "outdoor",
+   "cat": "cush",
+   "min": 45,
+   "price": 6000,
+   "en": "Outdoor seat cushions",
+   "ar": "وسائد جلسات خارجية",
+   "den": "Weather resistant, perfect fit.",
+   "dar": "مقاومة للطقس ومقاس مظبوط."
+  },
+  {
+   "id": "baby",
+   "cat": "cush",
+   "min": 30,
+   "price": 3500,
+   "en": "Baby and kids chair cover",
+   "ar": "غطاء كرسي أطفال",
+   "den": "Soft, washable and snug.",
+   "dar": "ناعم وقابل للغسل ومظبوط."
+  },
+  {
+   "id": "sofa3",
+   "cat": "sofa",
+   "min": 120,
+   "price": 35000,
+   "en": "Sofa re-upholstery",
+   "ar": "تنجيد كنب",
+   "den": "Fresh fabric and foam, like new.",
+   "dar": "قماش وإسفنج جديد وكأنه جديد.",
+   "pop": true
+  },
+  {
+   "id": "seat",
+   "cat": "sofa",
+   "min": 60,
+   "price": 9000,
+   "en": "Single chair re-cover",
+   "ar": "تغيير قماش كرسي",
+   "den": "Single armchair or dining chair.",
+   "dar": "كرسي واحد أو كرسي سفرة."
+  },
+  {
+   "id": "measure",
+   "cat": "custom",
+   "min": 45,
+   "price": 1000,
+   "en": "Home measuring visit",
+   "ar": "زيارة قياس للبيت",
+   "den": "We bring fabric samples. Credited to your order.",
+   "dar": "نجيب عينات القماش. تُخصم من طلبك."
+  },
+  {
+   "id": "bed",
+   "cat": "custom",
+   "min": 90,
+   "price": 22000,
+   "en": "Headboard upholstery",
+   "ar": "تنجيد ظهر سرير",
+   "den": "Custom headboard in your fabric.",
+   "dar": "ظهر سرير حسب التصميم."
+  },
+  {
+   "id": "repair",
+   "cat": "custom",
+   "min": 60,
+   "price": 5000,
+   "en": "Repairs and zips",
+   "ar": "إصلاحات وسحابات",
+   "den": "Quick fixes for worn pieces.",
+   "dar": "إصلاحات سريعة للقطع المتضررة."
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Salalah Technical"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "repair",
+   "en": "Repairs",
+   "ar": "إصلاح",
+   "icon": "tooth"
+  },
+  {
+   "id": "soft",
+   "en": "Software",
+   "ar": "سوفتوير",
+   "icon": "sparkle"
+  },
+  {
+   "id": "acc",
+   "en": "Accessories",
+   "ar": "إكسسوارات",
+   "icon": "heart"
+  }
+ ],
+ "products": [
+  {
+   "id": "screen",
+   "cat": "repair",
+   "min": 45,
+   "price": 22000,
+   "en": "Screen replacement",
+   "ar": "تغيير شاشة",
+   "den": "New display fitted while you wait.",
+   "dar": "شاشة جديدة وانت تنتظر.",
+   "pop": true
+  },
+  {
+   "id": "battery",
+   "cat": "repair",
+   "min": 30,
+   "price": 12000,
+   "en": "Battery replacement",
+   "ar": "تغيير بطارية",
+   "den": "Restore full-day battery life.",
+   "dar": "رجع للجوال بطارية يوم كامل.",
+   "pop": true
+  },
+  {
+   "id": "port",
+   "cat": "repair",
+   "min": 45,
+   "price": 8000,
+   "en": "Charging port repair",
+   "ar": "إصلاح منفذ الشحن",
+   "den": "Fixes loose or dead charging.",
+   "dar": "حل مشكلة الشحن الضعيف أو المعطل."
+  },
+  {
+   "id": "glass",
+   "cat": "repair",
+   "min": 60,
+   "price": 9000,
+   "en": "Back glass replacement",
+   "ar": "تغيير زجاج خلفي",
+   "den": "Cracked back glass replaced.",
+   "dar": "تغيير الزجاج الخلفي المكسور."
+  },
+  {
+   "id": "bank",
+   "cat": "soft",
+   "min": 30,
+   "price": 3000,
+   "en": "Banking app / software fix",
+   "ar": "حل مشاكل التطبيقات والسوفتوير",
+   "den": "Apps, updates and activation.",
+   "dar": "تطبيقات وتحديثات وتفعيل."
+  },
+  {
+   "id": "data",
+   "cat": "soft",
+   "min": 45,
+   "price": 4000,
+   "en": "Data transfer",
+   "ar": "نقل بيانات",
+   "den": "Move everything to your new phone.",
+   "dar": "انقل كل شي لجوالك الجديد."
+  },
+  {
+   "id": "protector",
+   "cat": "acc",
+   "min": 10,
+   "price": 1500,
+   "en": "Screen protector",
+   "ar": "حماية شاشة",
+   "den": "Fitted perfectly, no bubbles.",
+   "dar": "تركيب مظبوط بدون فقاعات."
+  },
+  {
+   "id": "case",
+   "cat": "acc",
+   "min": 10,
+   "price": 2500,
+   "en": "Phone case",
+   "ar": "كفر جوال",
+   "den": "Slim and rugged cases in stock.",
+   "dar": "كفرات خفيفة وقوية متوفرة."
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "bear": {
+   "s": 3500,
+   "l": 7500
+  },
+  "car": {
+   "red": 6500,
+   "blue": 6500
+  },
+  "blocks": {
+   "s": 4500,
+   "l": 9000
+  },
+  "bagk": {
+   "red": 8500,
+   "blue": 8500
+  },
+  "umb": {
+   "one": 4000
+  },
+  "bottle": {
+   "one": 2500
+  },
+  "gift": {
+   "s": 5500,
+   "l": 11000
+  }
+ },
+ "addons": {
+  "giftwrap": 500,
+  "card": 300
+ }
+}

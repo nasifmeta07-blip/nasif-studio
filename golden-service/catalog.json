@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Golden Service Co."
+ },
+ "deposit": 3000,
+ "categories": [
+  {
+   "id": "home",
+   "en": "Home",
+   "ar": "المنازل",
+   "icon": "sparkle"
+  },
+  {
+   "id": "deep",
+   "en": "Deep clean",
+   "ar": "تنظيف عميق",
+   "icon": "leaf"
+  },
+  {
+   "id": "office",
+   "en": "Business",
+   "ar": "شركات",
+   "icon": "clock"
+  }
+ ],
+ "products": [
+  {
+   "id": "apt",
+   "cat": "home",
+   "min": 180,
+   "price": 18000,
+   "en": "Apartment cleaning",
+   "ar": "تنظيف شقة",
+   "den": "Full clean of a flat, rooms to bathrooms.",
+   "dar": "تنظيف كامل للشقة من الغرف للحمامات.",
+   "pop": true
+  },
+  {
+   "id": "villa",
+   "cat": "home",
+   "min": 300,
+   "price": 45000,
+   "en": "Villa cleaning",
+   "ar": "تنظيف فيلا",
+   "den": "Whole villa, inside and out.",
+   "dar": "الفيلا كاملة من الداخل والخارج."
+  },
+  {
+   "id": "window",
+   "cat": "home",
+   "min": 90,
+   "price": 9000,
+   "en": "Window cleaning",
+   "ar": "تنظيف نوافذ",
+   "den": "Glass and frames, streak free.",
+   "dar": "زجاج وإطارات بدون آثار."
+  },
+  {
+   "id": "kitchen",
+   "cat": "deep",
+   "min": 120,
+   "price": 15000,
+   "en": "Kitchen deep clean",
+   "ar": "تنظيف مطبخ عميق",
+   "den": "Cabinets, hob, oven and tiles.",
+   "dar": "دواليب وطباخ وفرن وبلاط.",
+   "pop": true
+  },
+  {
+   "id": "bath",
+   "cat": "deep",
+   "min": 90,
+   "price": 8000,
+   "en": "Bathroom deep clean",
+   "ar": "تنظيف حمام عميق",
+   "den": "Descaling and full sanitising.",
+   "dar": "إزالة الترسبات وتعقيم كامل."
+  },
+  {
+   "id": "sofa",
+   "cat": "deep",
+   "min": 120,
+   "price": 12000,
+   "en": "Sofa and carpet wash",
+   "ar": "غسيل كنب وسجاد",
+   "den": "Deep wash for sofas and carpets.",
+   "dar": "غسيل عميق للكنب والسجاد."
+  },
+  {
+   "id": "move",
+   "cat": "deep",
+   "min": 240,
+   "price": 35000,
+   "en": "Move-in / move-out clean",
+   "ar": "تنظيف قبل/بعد السكن",
+   "den": "Leave or enter a place spotless.",
+   "dar": "سلم أو استلم المكان نظيف."
+  },
+  {
+   "id": "office",
+   "cat": "office",
+   "min": 180,
+   "price": 30000,
+   "en": "Office cleaning",
+   "ar": "تنظيف مكاتب",
+   "den": "One-off or regular office clean.",
+   "dar": "تنظيف مكتب مرة وحدة أو دوري."
+  }
+ ]
+}

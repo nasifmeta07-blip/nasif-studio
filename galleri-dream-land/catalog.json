@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Galleri Dream Land"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "tix",
+   "en": "Day passes",
+   "ar": "تذاكر اليوم",
+   "icon": "sparkle"
+  },
+  {
+   "id": "party",
+   "en": "Parties",
+   "ar": "حفلات",
+   "icon": "heart"
+  },
+  {
+   "id": "extra",
+   "en": "Extras",
+   "ar": "إضافات",
+   "icon": "leaf"
+  }
+ ],
+ "products": [
+  {
+   "id": "child",
+   "cat": "tix",
+   "min": 240,
+   "price": 2000,
+   "en": "Child day pass",
+   "ar": "تذكرة طفل لليوم كامل",
+   "den": "All-day play for one child.",
+   "dar": "لعب طوال اليوم لطفل واحد.",
+   "pop": true
+  },
+  {
+   "id": "sibling",
+   "cat": "tix",
+   "min": 240,
+   "price": 3500,
+   "en": "Two kids pass",
+   "ar": "تذكرة طفلين",
+   "den": "Two children, all day.",
+   "dar": "طفلين طوال اليوم."
+  },
+  {
+   "id": "family",
+   "cat": "tix",
+   "min": 240,
+   "price": 7500,
+   "en": "Family pass (4 kids)",
+   "ar": "تذكرة عائلية (٤ أطفال)",
+   "den": "Four children, all day.",
+   "dar": "٤ أطفال طوال اليوم."
+  },
+  {
+   "id": "bday",
+   "cat": "party",
+   "min": 180,
+   "price": 45000,
+   "en": "Birthday party",
+   "ar": "حفلة عيد ميلاد",
+   "den": "Private time slot for up to 15 kids.",
+   "dar": "وقت خاص لين ١٥ طفل.",
+   "pop": true
+  },
+  {
+   "id": "mini",
+   "cat": "party",
+   "min": 120,
+   "price": 25000,
+   "en": "Mini party",
+   "ar": "حفلة صغيرة",
+   "den": "Up to 8 kids, two hours.",
+   "dar": "لين ٨ أطفال لمدة ساعتين."
+  },
+  {
+   "id": "school",
+   "cat": "party",
+   "min": 180,
+   "price": 60000,
+   "en": "School group visit",
+   "ar": "زيارة مدرسية",
+   "den": "Group rate for classes and nurseries.",
+   "dar": "سعر مجموعات للفصول والحضانات."
+  },
+  {
+   "id": "socks",
+   "cat": "extra",
+   "min": 5,
+   "price": 300,
+   "en": "Play socks",
+   "ar": "شرابات اللعب",
+   "den": "Required for the play area.",
+   "dar": "مطلوبة لمنطقة اللعب."
+  },
+  {
+   "id": "cake",
+   "cat": "extra",
+   "min": 15,
+   "price": 6000,
+   "en": "Party cake",
+   "ar": "كيكة الحفلة",
+   "den": "Add a cake to your party.",
+   "dar": "أضف كيكة لحفلتك."
+  }
+ ]
+}

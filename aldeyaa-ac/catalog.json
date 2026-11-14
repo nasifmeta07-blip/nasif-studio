@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Aldeyaa AC Maintenance"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "clean",
+   "en": "Cleaning",
+   "ar": "تنظيف",
+   "icon": "sparkle"
+  },
+  {
+   "id": "repair",
+   "en": "Repair",
+   "ar": "صيانة",
+   "icon": "tooth"
+  },
+  {
+   "id": "install",
+   "en": "Install",
+   "ar": "تركيب",
+   "icon": "leaf"
+  }
+ ],
+ "products": [
+  {
+   "id": "split",
+   "cat": "clean",
+   "min": 45,
+   "price": 4000,
+   "en": "Split AC cleaning",
+   "ar": "تنظيف مكيف سبليت",
+   "den": "Full indoor and outdoor wash.",
+   "dar": "غسيل كامل للوحدة الداخلية والخارجية.",
+   "pop": true
+  },
+  {
+   "id": "window",
+   "cat": "clean",
+   "min": 40,
+   "price": 3000,
+   "en": "Window AC cleaning",
+   "ar": "تنظيف مكيف شباك",
+   "den": "Deep clean of window units.",
+   "dar": "تنظيف عميق لمكيف الشباك."
+  },
+  {
+   "id": "duct",
+   "cat": "clean",
+   "min": 120,
+   "price": 25000,
+   "en": "Ducted AC cleaning",
+   "ar": "تنظيف مكيف مركزي",
+   "den": "Ducts and vents cleaned.",
+   "dar": "تنظيف المجاري والفتحات."
+  },
+  {
+   "id": "gas",
+   "cat": "repair",
+   "min": 60,
+   "price": 12000,
+   "en": "Gas refill and leak check",
+   "ar": "تعبئة غاز وفحص تسرب",
+   "den": "Restores cooling power.",
+   "dar": "يرجع قوة التبريد.",
+   "pop": true
+  },
+  {
+   "id": "fault",
+   "cat": "repair",
+   "min": 60,
+   "price": 5000,
+   "en": "Fault diagnosis and repair",
+   "ar": "فحص وإصلاح أعطال",
+   "den": "Not cooling? We find the fault.",
+   "dar": "المكيف ما يبرد؟ نكتشف العطل."
+  },
+  {
+   "id": "inst",
+   "cat": "install",
+   "min": 90,
+   "price": 9000,
+   "en": "AC installation",
+   "ar": "تركيب مكيف",
+   "den": "New split unit fitted.",
+   "dar": "تركيب مكيف سبليت جديد."
+  },
+  {
+   "id": "move",
+   "cat": "install",
+   "min": 90,
+   "price": 7000,
+   "en": "AC removal and refit",
+   "ar": "فك وإعادة تركيب",
+   "den": "Moving house? We refit it.",
+   "dar": "انتقلت؟ نفك ونركب المكيف."
+  },
+  {
+   "id": "contract",
+   "cat": "clean",
+   "min": 60,
+   "price": 30000,
+   "en": "Yearly care plan",
+   "ar": "عقد صيانة سنوي",
+   "den": "Four cleaning visits a year.",
+   "dar": "٤ زيارات تنظيف في السنة."
+  }
+ ]
+}
