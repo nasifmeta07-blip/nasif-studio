@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "PestoCop Pest Control"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "insects",
+   "en": "Insects",
+   "ar": "حشرات",
+   "icon": "leaf"
+  },
+  {
+   "id": "rodents",
+   "en": "Rodents & birds",
+   "ar": "قوارض وطيور",
+   "icon": "clock"
+  },
+  {
+   "id": "plans",
+   "en": "Plans",
+   "ar": "عقود",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "ants",
+   "cat": "insects",
+   "min": 60,
+   "price": 2500,
+   "en": "Ant treatment",
+   "ar": "علاج النمل",
+   "den": "Targeted gel and spray treatment.",
+   "dar": "علاج بالجل والرش.",
+   "pop": true
+  },
+  {
+   "id": "mosq",
+   "cat": "insects",
+   "min": 60,
+   "price": 3000,
+   "en": "Mosquito treatment",
+   "ar": "مكافحة البعوض",
+   "den": "Indoor and outdoor treatment.",
+   "dar": "داخل وخارج المنزل.",
+   "pop": true
+  },
+  {
+   "id": "roach",
+   "cat": "insects",
+   "min": 60,
+   "price": 3500,
+   "en": "Cockroach treatment",
+   "ar": "مكافحة الصراصير",
+   "den": "Kitchen, drains and cabinets.",
+   "dar": "مطبخ ومجاري ودواليب."
+  },
+  {
+   "id": "bed",
+   "cat": "insects",
+   "min": 90,
+   "price": 8000,
+   "en": "Bed bug treatment",
+   "ar": "مكافحة بق الفراش",
+   "den": "Full room treatment.",
+   "dar": "معالجة كاملة للغرفة."
+  },
+  {
+   "id": "drain",
+   "cat": "insects",
+   "min": 60,
+   "price": 4500,
+   "en": "Drain infestation",
+   "ar": "حشرات المجاري",
+   "den": "Stops pests coming up drains.",
+   "dar": "يوقف الحشرات من المجاري."
+  },
+  {
+   "id": "rat",
+   "cat": "rodents",
+   "min": 60,
+   "price": 5000,
+   "en": "Rodent control",
+   "ar": "مكافحة القوارض",
+   "den": "Traps and sealing advice.",
+   "dar": "مصائد ونصائح للسد."
+  },
+  {
+   "id": "bird",
+   "cat": "rodents",
+   "min": 90,
+   "price": 9000,
+   "en": "Bird control",
+   "ar": "طرد الطيور",
+   "den": "Netting and deterrents.",
+   "dar": "شباك ومنفرات."
+  },
+  {
+   "id": "plan",
+   "cat": "plans",
+   "min": 60,
+   "price": 20000,
+   "en": "Quarterly plan",
+   "ar": "عقد ربع سنوي",
+   "den": "Four visits a year.",
+   "dar": "٤ زيارات في السنة."
+  }
+ ]
+}

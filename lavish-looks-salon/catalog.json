@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Lavish Looks by Shahla"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "hair",
+   "en": "Hair",
+   "ar": "شعر",
+   "icon": "sparkle"
+  },
+  {
+   "id": "skin",
+   "en": "Skin",
+   "ar": "بشرة",
+   "icon": "face"
+  },
+  {
+   "id": "nails",
+   "en": "Nails & spa",
+   "ar": "أظافر وسبا",
+   "icon": "heart"
+  }
+ ],
+ "products": [
+  {
+   "id": "cut",
+   "cat": "hair",
+   "min": 45,
+   "price": 5000,
+   "en": "Haircut",
+   "ar": "قص شعر",
+   "den": "Cut and style.",
+   "dar": "قص وتسريح.",
+   "pop": true
+  },
+  {
+   "id": "color",
+   "cat": "hair",
+   "min": 120,
+   "price": 22000,
+   "en": "Hair colour",
+   "ar": "صبغة شعر",
+   "den": "Full colour, root touch-up or highlights.",
+   "dar": "صبغة كاملة أو جذور أو هايلايت.",
+   "pop": true
+  },
+  {
+   "id": "keratin",
+   "cat": "hair",
+   "min": 150,
+   "price": 30000,
+   "en": "Keratin treatment",
+   "ar": "علاج كيراتين",
+   "den": "Smooth, frizz free hair.",
+   "dar": "شعر ناعم بدون تجعد."
+  },
+  {
+   "id": "facial",
+   "cat": "skin",
+   "min": 60,
+   "price": 8000,
+   "en": "Facial",
+   "ar": "فيشل",
+   "den": "Deep cleanse and glow.",
+   "dar": "تنظيف عميق ونضارة."
+  },
+  {
+   "id": "thread",
+   "cat": "skin",
+   "min": 20,
+   "price": 1500,
+   "en": "Threading",
+   "ar": "تقصيب",
+   "den": "Brows and face threading.",
+   "dar": "حواجب ووجه."
+  },
+  {
+   "id": "mani",
+   "cat": "nails",
+   "min": 45,
+   "price": 5500,
+   "en": "Manicure",
+   "ar": "مانيكير",
+   "den": "Shaped, polished nails.",
+   "dar": "أظافر مرتبة ولامعة."
+  },
+  {
+   "id": "pedi",
+   "cat": "nails",
+   "min": 50,
+   "price": 6500,
+   "en": "Pedicure",
+   "ar": "باديكير",
+   "den": "Soft, polished feet.",
+   "dar": "أقدام ناعمة ولامعة."
+  },
+  {
+   "id": "spa",
+   "cat": "nails",
+   "min": 60,
+   "price": 12000,
+   "en": "Body spa",
+   "ar": "سبا للجسم",
+   "den": "Relaxing full body treatment.",
+   "dar": "جلسة استرخاء للجسم."
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Ayna Blossom Beauty Salon"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "face",
+   "en": "Face",
+   "ar": "بشرة",
+   "icon": "face"
+  },
+  {
+   "id": "hair",
+   "en": "Hair",
+   "ar": "شعر",
+   "icon": "sparkle"
+  },
+  {
+   "id": "nails",
+   "en": "Nails & body",
+   "ar": "أظافر وجسم",
+   "icon": "heart"
+  }
+ ],
+ "products": [
+  {
+   "id": "facial",
+   "cat": "face",
+   "min": 60,
+   "price": 9000,
+   "en": "Classic facial",
+   "ar": "فيشل كلاسيك",
+   "den": "Deep cleanse and glow.",
+   "dar": "تنظيف عميق ونضارة.",
+   "pop": true
+  },
+  {
+   "id": "dtan",
+   "cat": "face",
+   "min": 45,
+   "price": 7000,
+   "en": "D-tan treatment",
+   "ar": "إزالة التسمير",
+   "den": "Brightens tanned skin.",
+   "dar": "تفتيح البشرة المسمّرة."
+  },
+  {
+   "id": "threading",
+   "cat": "face",
+   "min": 20,
+   "price": 1500,
+   "en": "Eyebrow threading",
+   "ar": "تقصيب حواجب",
+   "den": "Clean, defined brows.",
+   "dar": "حواجب مرتبة ونظيفة."
+  },
+  {
+   "id": "cut",
+   "cat": "hair",
+   "min": 45,
+   "price": 6000,
+   "en": "Haircut and blow dry",
+   "ar": "قص وتسريح",
+   "den": "Cut and styled to your taste.",
+   "dar": "قص وتسريح حسب ذوقك.",
+   "pop": true
+  },
+  {
+   "id": "spa",
+   "cat": "hair",
+   "min": 60,
+   "price": 12000,
+   "en": "Hair spa",
+   "ar": "سبا للشعر",
+   "den": "Deep nourishing treatment.",
+   "dar": "علاج مغذي عميق."
+  },
+  {
+   "id": "color",
+   "cat": "hair",
+   "min": 120,
+   "price": 25000,
+   "en": "Hair colour",
+   "ar": "صبغة شعر",
+   "den": "Full colour with care.",
+   "dar": "صبغة كاملة بعناية."
+  },
+  {
+   "id": "mani",
+   "cat": "nails",
+   "min": 45,
+   "price": 6000,
+   "en": "Manicure and pedicure",
+   "ar": "مانيكير وباديكير",
+   "den": "Neat, polished hands and feet.",
+   "dar": "أيدي وأقدام مرتبة ولامعة."
+  },
+  {
+   "id": "massage",
+   "cat": "nails",
+   "min": 60,
+   "price": 10000,
+   "en": "Relaxing massage",
+   "ar": "مساج استرخاء",
+   "den": "Release the tension.",
+   "dar": "تخلصي من التوتر."
+  }
+ ]
+}

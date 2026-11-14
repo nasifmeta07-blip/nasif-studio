@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Al Mustaqbal Physiotherapy Clinic"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "assess",
+   "en": "Assessment",
+   "ar": "تقييم",
+   "icon": "heart"
+  },
+  {
+   "id": "adult",
+   "en": "Adults",
+   "ar": "كبار",
+   "icon": "leaf"
+  },
+  {
+   "id": "kids",
+   "en": "Children",
+   "ar": "أطفال",
+   "icon": "face"
+  }
+ ],
+ "products": [
+  {
+   "id": "first",
+   "cat": "assess",
+   "min": 45,
+   "price": 5000,
+   "en": "First assessment",
+   "ar": "جلسة تقييم أولى",
+   "den": "Examination and treatment plan.",
+   "dar": "فحص وخطة علاج.",
+   "pop": true
+  },
+  {
+   "id": "review",
+   "cat": "assess",
+   "min": 30,
+   "price": 3000,
+   "en": "Review visit",
+   "ar": "مراجعة",
+   "den": "Progress check.",
+   "dar": "متابعة التقدم."
+  },
+  {
+   "id": "knee",
+   "cat": "adult",
+   "min": 45,
+   "price": 6000,
+   "en": "Knee and joint session",
+   "ar": "جلسة ركبة ومفاصل",
+   "den": "Targeted manual therapy and exercise.",
+   "dar": "علاج يدوي وتمارين.",
+   "pop": true
+  },
+  {
+   "id": "neck",
+   "cat": "adult",
+   "min": 45,
+   "price": 6000,
+   "en": "Neck and back session",
+   "ar": "جلسة رقبة وظهر",
+   "den": "Relieves pain and stiffness.",
+   "dar": "تخفيف الألم والشد."
+  },
+  {
+   "id": "elec",
+   "cat": "adult",
+   "min": 30,
+   "price": 4000,
+   "en": "Electrotherapy",
+   "ar": "علاج كهربائي",
+   "den": "Pain relief with modern devices.",
+   "dar": "تخفيف الألم بأجهزة حديثة."
+  },
+  {
+   "id": "pack",
+   "cat": "adult",
+   "min": 45,
+   "price": 50000,
+   "en": "10-session package",
+   "ar": "باقة ١٠ جلسات",
+   "den": "Full course at a better price.",
+   "dar": "برنامج كامل بسعر أوفر."
+  },
+  {
+   "id": "child",
+   "cat": "kids",
+   "min": 45,
+   "price": 6000,
+   "en": "Child development session",
+   "ar": "جلسة نمو للطفل",
+   "den": "Motor and muscle development.",
+   "dar": "تنمية حركية وعضلية."
+  },
+  {
+   "id": "speech",
+   "cat": "kids",
+   "min": 45,
+   "price": 6000,
+   "en": "Speech therapy",
+   "ar": "تقويم نطق",
+   "den": "Support for clear speech.",
+   "dar": "دعم للنطق السليم."
+  }
+ ]
+}

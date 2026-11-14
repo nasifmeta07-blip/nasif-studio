@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Khidmati Home Services"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "ac",
+   "en": "AC care",
+   "ar": "تكييف",
+   "icon": "leaf"
+  },
+  {
+   "id": "plumb",
+   "en": "Plumbing",
+   "ar": "سباكة",
+   "icon": "clock"
+  },
+  {
+   "id": "clean",
+   "en": "Cleaning",
+   "ar": "تنظيف",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "acdeep",
+   "cat": "ac",
+   "min": 60,
+   "price": 4500,
+   "en": "AC deep cleaning",
+   "ar": "غسيل مكيف عميق",
+   "den": "Opened, washed and reassembled.",
+   "dar": "فك وغسيل وإعادة تركيب.",
+   "pop": true
+  },
+  {
+   "id": "acpanel",
+   "cat": "ac",
+   "min": 45,
+   "price": 3500,
+   "en": "AC panel wash",
+   "ar": "غسيل لوحة مكيف",
+   "den": "Mould and dust removed.",
+   "dar": "إزالة العفن والغبار."
+  },
+  {
+   "id": "acgas",
+   "cat": "ac",
+   "min": 60,
+   "price": 12000,
+   "en": "Gas refill",
+   "ar": "تعبئة غاز",
+   "den": "Restores cooling power.",
+   "dar": "يرجع قوة التبريد."
+  },
+  {
+   "id": "leak",
+   "cat": "plumb",
+   "min": 45,
+   "price": 3000,
+   "en": "Leak repair",
+   "ar": "إصلاح تسريب",
+   "den": "Find and fix leaks.",
+   "dar": "كشف وإصلاح التسريب.",
+   "pop": true
+  },
+  {
+   "id": "tap",
+   "cat": "plumb",
+   "min": 30,
+   "price": 2000,
+   "en": "Tap and mixer fitting",
+   "ar": "تركيب خلاطات",
+   "den": "Install or replace.",
+   "dar": "تركيب أو تبديل."
+  },
+  {
+   "id": "drain",
+   "cat": "plumb",
+   "min": 45,
+   "price": 3500,
+   "en": "Drain unblocking",
+   "ar": "تسليك مجاري",
+   "den": "Clears blocked drains.",
+   "dar": "فتح المجاري المسدودة."
+  },
+  {
+   "id": "home",
+   "cat": "clean",
+   "min": 180,
+   "price": 15000,
+   "en": "Home cleaning",
+   "ar": "تنظيف منزل",
+   "den": "Full clean, room by room.",
+   "dar": "تنظيف كامل غرفة غرفة."
+  },
+  {
+   "id": "sofa",
+   "cat": "clean",
+   "min": 90,
+   "price": 8000,
+   "en": "Sofa and carpet wash",
+   "ar": "غسيل كنب وسجاد",
+   "den": "Deep wash.",
+   "dar": "غسيل عميق."
+  }
+ ]
+}

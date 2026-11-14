@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "KB Car Care Center"
+ },
+ "deposit": 500,
+ "categories": [
+  {
+   "id": "wash",
+   "en": "Wash",
+   "ar": "غسيل",
+   "icon": "sparkle"
+  },
+  {
+   "id": "polish",
+   "en": "Polish & protect",
+   "ar": "تلميع وحماية",
+   "icon": "leaf"
+  },
+  {
+   "id": "inside",
+   "en": "Interior",
+   "ar": "داخلي",
+   "icon": "heart"
+  }
+ ],
+ "products": [
+  {
+   "id": "basic",
+   "cat": "wash",
+   "min": 30,
+   "price": 1500,
+   "en": "Exterior wash",
+   "ar": "غسيل خارجي",
+   "den": "Foam wash and rinse.",
+   "dar": "غسيل بالرغوة وشطف.",
+   "pop": true
+  },
+  {
+   "id": "full",
+   "cat": "wash",
+   "min": 60,
+   "price": 3000,
+   "en": "Full wash",
+   "ar": "غسيل كامل",
+   "den": "Inside and out.",
+   "dar": "داخل وخارج.",
+   "pop": true
+  },
+  {
+   "id": "engine",
+   "cat": "wash",
+   "min": 30,
+   "price": 2500,
+   "en": "Engine wash",
+   "ar": "غسيل محرك",
+   "den": "Safe engine bay clean.",
+   "dar": "تنظيف آمن للمحرك."
+  },
+  {
+   "id": "polish",
+   "cat": "polish",
+   "min": 90,
+   "price": 12000,
+   "en": "Polish",
+   "ar": "تلميع",
+   "den": "Restores shine to the paint.",
+   "dar": "يرجع لمعان الطلاء."
+  },
+  {
+   "id": "ceramic",
+   "cat": "polish",
+   "min": 180,
+   "price": 45000,
+   "en": "Ceramic coating",
+   "ar": "طلاء سيراميك",
+   "den": "Long lasting protection.",
+   "dar": "حماية تدوم طويلاً."
+  },
+  {
+   "id": "tint",
+   "cat": "polish",
+   "min": 120,
+   "price": 15000,
+   "en": "Window tint",
+   "ar": "تظليل زجاج",
+   "den": "Heat and glare reduction.",
+   "dar": "تقليل الحرارة والوهج."
+  },
+  {
+   "id": "vac",
+   "cat": "inside",
+   "min": 45,
+   "price": 4000,
+   "en": "Interior deep clean",
+   "ar": "تنظيف داخلي عميق",
+   "den": "Seats, carpets and dashboard.",
+   "dar": "مقاعد وسجاد ولوحة القيادة."
+  },
+  {
+   "id": "seat",
+   "cat": "inside",
+   "min": 90,
+   "price": 10000,
+   "en": "Seat steam clean",
+   "ar": "تنظيف مقاعد بالبخار",
+   "den": "Removes stains and odours.",
+   "dar": "يزيل البقع والروائح."
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "magnet": {
+   "one": 800
+  },
+  "keyring": {
+   "one": 600
+  },
+  "tee": {
+   "s": 3500,
+   "m": 3500,
+   "l": 3500,
+   "x": 3800
+  },
+  "cap": {
+   "one": 4500
+  },
+  "tote": {
+   "one": 2500
+  },
+  "hand": {
+   "one": 6500
+  },
+  "cup": {
+   "one": 1800
+  }
+ },
+ "addons": {
+  "giftwrap": 500,
+  "bagx": 200
+ }
+}

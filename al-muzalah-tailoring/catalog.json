@@ -1,0 +1,35 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "white": {
+   "std": 9000,
+   "cut": 11000
+  },
+  "color": {
+   "std": 9000,
+   "cut": 11000
+  },
+  "winter": {
+   "std": 12000,
+   "cut": 14500
+  },
+  "kumma": {
+   "one": 4500
+  },
+  "kummaP": {
+   "one": 2500
+  },
+  "masar": {
+   "one": 7500
+  },
+  "perf": {
+   "s": 3500,
+   "m": 6500
+  }
+ },
+ "addons": {
+  "giftwrap": 500,
+  "rush": 2000
+ }
+}
