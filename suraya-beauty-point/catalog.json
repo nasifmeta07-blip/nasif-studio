@@ -1,0 +1,147 @@
+{
+ "shop": {
+  "name": "Suraya Beauty Point"
+ },
+ "deposit": 3000,
+ "categories": [
+  {
+   "id": "nails",
+   "en": "Nails",
+   "ar": "الأظافر",
+   "icon": "polish"
+  },
+  {
+   "id": "hair",
+   "en": "Hair",
+   "ar": "الشعر",
+   "icon": "scissors"
+  },
+  {
+   "id": "face",
+   "en": "Face & brows",
+   "ar": "الوجه والحواجب",
+   "icon": "face"
+  },
+  {
+   "id": "makeup",
+   "en": "Makeup",
+   "ar": "المكياج",
+   "icon": "lipstick"
+  }
+ ],
+ "products": [
+  {
+   "id": "mani",
+   "cat": "nails",
+   "min": 40,
+   "price": 6000,
+   "en": "Classic manicure",
+   "ar": "مناكير كلاسيك",
+   "den": "Shape, cuticle care and your favourite colour.",
+   "dar": "تشكيل وعناية بالجلد واللون اللي تحبينه.",
+   "pop": true
+  },
+  {
+   "id": "pedi",
+   "cat": "nails",
+   "min": 50,
+   "price": 8000,
+   "en": "Spa pedicure",
+   "ar": "باديكير سبا",
+   "den": "Soak, scrub, massage and polish.",
+   "dar": "نقع وتقشير ومساج وطلاء.",
+   "pop": true
+  },
+  {
+   "id": "gel",
+   "cat": "nails",
+   "min": 60,
+   "price": 10000,
+   "en": "Gel polish",
+   "ar": "طلاء جل",
+   "den": "Glossy colour that lasts for weeks.",
+   "dar": "لون لامع يدوم أسابيع."
+  },
+  {
+   "id": "ext",
+   "cat": "nails",
+   "min": 90,
+   "price": 18000,
+   "en": "Nail extensions",
+   "ar": "تركيب أظافر",
+   "den": "Acrylic or gel extensions in your shape.",
+   "dar": "أكريليك أو جل بالشكل اللي تبينه."
+  },
+  {
+   "id": "art",
+   "cat": "nails",
+   "min": 20,
+   "price": 3000,
+   "en": "Nail art",
+   "ar": "رسم على الأظافر",
+   "den": "Add designs, stones or chrome.",
+   "dar": "رسومات أو أحجار أو كروم."
+  },
+  {
+   "id": "cut",
+   "cat": "hair",
+   "min": 45,
+   "price": 8000,
+   "en": "Haircut & blow-dry",
+   "ar": "قص وسشوار",
+   "den": "Wash, cut and a smooth finish.",
+   "dar": "غسيل وقص وتصفيف ناعم."
+  },
+  {
+   "id": "hext",
+   "cat": "hair",
+   "min": 120,
+   "price": 40000,
+   "en": "Hair extensions",
+   "ar": "تركيب شعر",
+   "den": "Length and volume that blend in naturally.",
+   "dar": "طول وكثافة تندمج بشكل طبيعي.",
+   "pop": true
+  },
+  {
+   "id": "keratin",
+   "cat": "hair",
+   "min": 150,
+   "price": 30000,
+   "en": "Keratin treatment",
+   "ar": "كيراتين",
+   "den": "Smooth, frizz-free hair for months.",
+   "dar": "شعر ناعم بدون هيشان لشهور."
+  },
+  {
+   "id": "facial",
+   "cat": "face",
+   "min": 60,
+   "price": 15000,
+   "en": "Glow facial",
+   "ar": "فيشل نضارة",
+   "den": "Deep cleanse and hydration.",
+   "dar": "تنظيف عميق وترطيب."
+  },
+  {
+   "id": "brows",
+   "cat": "face",
+   "min": 15,
+   "price": 2000,
+   "en": "Eyebrow threading",
+   "ar": "تحديد الحواجب",
+   "den": "Clean, defined brows.",
+   "dar": "حواجب مرتبة ومحددة."
+  },
+  {
+   "id": "party",
+   "cat": "makeup",
+   "min": 60,
+   "price": 20000,
+   "en": "Party makeup",
+   "ar": "مكياج سهرة",
+   "den": "Soft glam for any occasion.",
+   "dar": "مكياج ناعم لأي مناسبة."
+  }
+ ]
+}
