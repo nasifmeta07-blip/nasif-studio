@@ -1,0 +1,25 @@
+{
+  "shop": { "name": "Luxera Beauty Salon" },
+  "deposit": 3000,
+  "categories": [
+    { "id": "hair", "en": "Hair", "ar": "الشعر", "icon": "scissors" },
+    { "id": "face", "en": "Face & brows", "ar": "الوجه والحواجب", "icon": "face" },
+    { "id": "nails", "en": "Nails", "ar": "الأظافر", "icon": "polish" },
+    { "id": "makeup", "en": "Makeup", "ar": "المكياج", "icon": "lipstick" }
+  ],
+  "products": [
+    { "id": "cut", "cat": "hair", "min": 45, "price": 8000, "en": "Haircut & blow-dry", "ar": "قص وسشوار", "den": "Wash, cut and a smooth finish.", "dar": "غسيل وقص وتصفيف ناعم." },
+    { "id": "layers", "cat": "hair", "min": 60, "price": 10000, "en": "Layered cut", "ar": "قص طبقات", "den": "Our most-loved cut, styled to suit your face.", "dar": "القصة الأكثر طلباً، تناسب شكل وجهك.", "pop": true },
+    { "id": "spa", "cat": "hair", "min": 50, "price": 12000, "en": "Hair spa", "ar": "سبا الشعر", "den": "Deep-conditioning ritual with a relaxing massage.", "dar": "ترطيب عميق مع مساج مريح.", "pop": true },
+    { "id": "protein", "cat": "hair", "min": 120, "price": 25000, "en": "Protein treatment", "ar": "علاج البروتين", "den": "Smooth, shiny, frizz-free hair for weeks.", "dar": "شعر ناعم ولامع بدون هيشان لأسابيع." },
+    { "id": "kids", "cat": "hair", "min": 30, "price": 5000, "en": "Kids haircut", "ar": "قص للأطفال", "den": "Gentle and quick, for little ones.", "dar": "لطيف وسريع للصغار." },
+    { "id": "facial", "cat": "face", "min": 60, "price": 12000, "en": "Glow facial", "ar": "فيشل النضارة", "den": "Cleanse, exfoliate and hydrate.", "dar": "تنظيف وتقشير وترطيب." },
+    { "id": "brows", "cat": "face", "min": 15, "price": 1500, "en": "Eyebrow threading", "ar": "حف الحواجب بالخيط", "den": "Clean, defined brows.", "dar": "حواجب مرتبة ومحددة." },
+    { "id": "fullface", "cat": "face", "min": 25, "price": 4000, "en": "Full face threading", "ar": "حف الوجه كامل", "den": "Smooth skin, gentle technique.", "dar": "بشرة ناعمة بتقنية لطيفة." },
+    { "id": "mani", "cat": "nails", "min": 40, "price": 6000, "en": "Manicure", "ar": "مناكير", "den": "Shape, cuticle care and polish.", "dar": "تشكيل وعناية وطلاء." },
+    { "id": "pedi", "cat": "nails", "min": 50, "price": 8000, "en": "Pedicure", "ar": "باديكير", "den": "Soak, scrub, massage and polish.", "dar": "نقع وتقشير ومساج وطلاء." },
+    { "id": "gel", "cat": "nails", "min": 45, "price": 7000, "en": "Gel polish", "ar": "طلاء جل", "den": "Glossy colour that lasts 3 weeks.", "dar": "لون لامع يدوم ٣ أسابيع." },
+    { "id": "party", "cat": "makeup", "min": 60, "price": 20000, "en": "Party makeup", "ar": "مكياج سهرة", "den": "Soft glam for weddings and evenings out.", "dar": "مكياج ناعم للأعراس والسهرات." },
+    { "id": "bridal", "cat": "makeup", "min": 150, "price": 80000, "en": "Bridal makeup & hair", "ar": "مكياج وتسريحة عروس", "den": "Trial session included. Your perfect day.", "dar": "تشمل جلسة تجربة. ليومك المثالي." }
+  ]
+}
