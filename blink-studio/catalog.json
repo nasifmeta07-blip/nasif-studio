@@ -1,0 +1,118 @@
+{
+ "shop": {
+  "name": "Blink Studio"
+ },
+ "deposit": 2000,
+ "categories": [
+  {
+   "id": "portrait",
+   "en": "Portraits",
+   "ar": "بورتريه",
+   "icon": "face"
+  },
+  {
+   "id": "family",
+   "en": "Family",
+   "ar": "عائلة",
+   "icon": "sparkle"
+  },
+  {
+   "id": "event",
+   "en": "Events",
+   "ar": "فعاليات",
+   "icon": "face"
+  },
+  {
+   "id": "prints",
+   "en": "Prints",
+   "ar": "طباعة",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "portrait",
+   "cat": "portrait",
+   "min": 30,
+   "price": 10000,
+   "en": "Portrait session",
+   "ar": "جلسة بورتريه",
+   "den": "Studio portraits with edited photos.",
+   "dar": "تصوير بورتريه في الاستوديو مع تعديل.",
+   "pop": true
+  },
+  {
+   "id": "id",
+   "cat": "portrait",
+   "min": 15,
+   "price": 2000,
+   "en": "Passport & ID photos",
+   "ar": "صور جواز وهوية",
+   "den": "Printed in minutes.",
+   "dar": "تطبع خلال دقائق.",
+   "pop": true
+  },
+  {
+   "id": "couple",
+   "cat": "portrait",
+   "min": 45,
+   "price": 18000,
+   "en": "Couple session",
+   "ar": "جلسة زوجين",
+   "den": "Studio or outdoor shoot.",
+   "dar": "تصوير في الاستوديو أو برا."
+  },
+  {
+   "id": "family",
+   "cat": "family",
+   "min": 60,
+   "price": 25000,
+   "en": "Family session",
+   "ar": "جلسة عائلية",
+   "den": "Up to 6 people, edited photos.",
+   "dar": "لين ٦ أشخاص مع تعديل.",
+   "pop": true
+  },
+  {
+   "id": "kids",
+   "cat": "family",
+   "min": 45,
+   "price": 15000,
+   "en": "Kids & newborn",
+   "ar": "أطفال ومواليد",
+   "den": "Gentle, patient photographers.",
+   "dar": "مصورين صبورين ولطيفين."
+  },
+  {
+   "id": "event",
+   "cat": "event",
+   "min": 120,
+   "price": 60000,
+   "en": "Event coverage",
+   "ar": "تغطية فعالية",
+   "den": "Photos for birthdays and events.",
+   "dar": "تصوير أعياد ميلاد وفعاليات."
+  },
+  {
+   "id": "video",
+   "cat": "event",
+   "min": 120,
+   "price": 90000,
+   "en": "Photo + video package",
+   "ar": "باقة صور وفيديو",
+   "den": "Short highlight video included.",
+   "dar": "مع فيديو ملخص قصير."
+  },
+  {
+   "id": "print",
+   "cat": "prints",
+   "min": 15,
+   "price": 3000,
+   "en": "Photo prints",
+   "ar": "طباعة صور",
+   "den": "Prints and frames in 1 hour.",
+   "dar": "طباعة وإطارات خلال ساعة.",
+   "pop": true
+  }
+ ]
+}
