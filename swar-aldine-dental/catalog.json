@@ -1,0 +1,128 @@
+{
+ "shop": {
+  "name": "Swar Aldine Dental Clinic"
+ },
+ "deposit": 2000,
+ "categories": [
+  {
+   "id": "check",
+   "en": "Check-ups",
+   "ar": "الفحص",
+   "icon": "tooth"
+  },
+  {
+   "id": "clean",
+   "en": "Cleaning",
+   "ar": "التنظيف",
+   "icon": "sparkle"
+  },
+  {
+   "id": "treat",
+   "en": "Treatments",
+   "ar": "العلاجات",
+   "icon": "tooth"
+  },
+  {
+   "id": "cosm",
+   "en": "Whitening",
+   "ar": "التجميل",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "exam",
+   "cat": "check",
+   "min": 20,
+   "price": 5000,
+   "en": "Check-up & consultation",
+   "ar": "فحص واستشارة",
+   "den": "Full exam and a clear treatment plan.",
+   "dar": "فحص كامل وخطة علاج واضحة.",
+   "pop": true
+  },
+  {
+   "id": "xray",
+   "cat": "check",
+   "min": 10,
+   "price": 3000,
+   "en": "Dental X-ray",
+   "ar": "أشعة أسنان",
+   "den": "Digital X-ray, low dose.",
+   "dar": "أشعة رقمية بجرعة منخفضة."
+  },
+  {
+   "id": "kids",
+   "cat": "check",
+   "min": 20,
+   "price": 5000,
+   "en": "Kids check-up",
+   "ar": "فحص أطفال",
+   "den": "Gentle visit for children.",
+   "dar": "زيارة لطيفة للأطفال."
+  },
+  {
+   "id": "scale",
+   "cat": "clean",
+   "min": 30,
+   "price": 15000,
+   "en": "Scaling & polishing",
+   "ar": "تنظيف وتلميع",
+   "den": "Remove plaque and stains.",
+   "dar": "إزالة الجير والتصبغات.",
+   "pop": true
+  },
+  {
+   "id": "fill",
+   "cat": "treat",
+   "min": 40,
+   "price": 15000,
+   "en": "Tooth filling",
+   "ar": "حشوة أسنان",
+   "den": "White filling, comfortable and quick.",
+   "dar": "حشوة بيضاء مريحة وسريعة.",
+   "pop": true
+  },
+  {
+   "id": "root",
+   "cat": "treat",
+   "min": 60,
+   "price": 45000,
+   "en": "Root canal",
+   "ar": "علاج عصب",
+   "den": "Save the tooth, no pain.",
+   "dar": "إنقاذ السن بدون ألم."
+  },
+  {
+   "id": "extract",
+   "cat": "treat",
+   "min": 30,
+   "price": 12000,
+   "en": "Tooth extraction",
+   "ar": "خلع سن",
+   "den": "Simple and gentle.",
+   "dar": "خلع بسيط ولطيف."
+  },
+  {
+   "id": "white",
+   "cat": "cosm",
+   "min": 60,
+   "price": 60000,
+   "en": "Teeth whitening",
+   "ar": "تبييض الأسنان",
+   "den": "Brighter smile in one visit.",
+   "dar": "ابتسامة أفتح في زيارة وحدة.",
+   "pop": true
+  },
+  {
+   "id": "veneer",
+   "cat": "cosm",
+   "min": 45,
+   "price": 25000,
+   "en": "Cosmetic bonding",
+   "ar": "تجميل بالحشو",
+   "den": "Fix chips and gaps.",
+   "dar": "إصلاح الكسور والفراغات."
+  }
+ ]
+}
