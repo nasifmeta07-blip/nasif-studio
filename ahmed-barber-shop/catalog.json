@@ -1,0 +1,132 @@
+{
+ "shop": {
+  "name": "Ahmed Barber Shop"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "hair",
+   "en": "Hair",
+   "ar": "الشعر",
+   "icon": "scissors"
+  },
+  {
+   "id": "beard",
+   "en": "Beard & shave",
+   "ar": "اللحية والحلاقة",
+   "icon": "razor"
+  },
+  {
+   "id": "care",
+   "en": "Face & care",
+   "ar": "الوجه والعناية",
+   "icon": "face"
+  }
+ ],
+ "products": [
+  {
+   "id": "cut",
+   "cat": "hair",
+   "min": 30,
+   "price": 3000,
+   "en": "Haircut",
+   "ar": "قص شعر",
+   "den": "Wash, cut and style.",
+   "dar": "غسيل وقص وتصفيف.",
+   "pop": true
+  },
+  {
+   "id": "fade",
+   "cat": "hair",
+   "min": 40,
+   "price": 3500,
+   "en": "Skin fade",
+   "ar": "تدريج سكين فيد",
+   "den": "Clean fade blended to the skin.",
+   "dar": "تدريج ناعم لين الجلد.",
+   "pop": true
+  },
+  {
+   "id": "kids",
+   "cat": "hair",
+   "min": 25,
+   "price": 2000,
+   "en": "Kids haircut",
+   "ar": "قص أطفال",
+   "den": "For boys under 12.",
+   "dar": "للأولاد تحت ١٢ سنة."
+  },
+  {
+   "id": "colour",
+   "cat": "hair",
+   "min": 45,
+   "price": 5000,
+   "en": "Hair colour",
+   "ar": "صبغة شعر",
+   "den": "Cover greys or a new shade.",
+   "dar": "تغطية الشيب أو لون جديد."
+  },
+  {
+   "id": "beard",
+   "cat": "beard",
+   "min": 20,
+   "price": 1500,
+   "en": "Beard trim & line-up",
+   "ar": "تحديد لحية",
+   "den": "Shape, trim and sharp edges.",
+   "dar": "تشكيل وتهذيب وحواف مرتبة.",
+   "pop": true
+  },
+  {
+   "id": "combo",
+   "cat": "beard",
+   "min": 50,
+   "price": 4000,
+   "en": "Haircut + beard",
+   "ar": "قص + لحية",
+   "den": "The full refresh in one visit.",
+   "dar": "تجديد كامل في زيارة وحدة.",
+   "pop": true
+  },
+  {
+   "id": "shave",
+   "cat": "beard",
+   "min": 30,
+   "price": 2000,
+   "en": "Hot towel shave",
+   "ar": "حلاقة بالفوطة الحارة",
+   "den": "Classic razor shave with hot towels.",
+   "dar": "حلاقة موس كلاسيكية مع فوط حارة."
+  },
+  {
+   "id": "facial",
+   "cat": "care",
+   "min": 30,
+   "price": 4000,
+   "en": "Facial cleansing",
+   "ar": "تنظيف بشرة",
+   "den": "Deep cleanse and steam.",
+   "dar": "تنظيف عميق مع بخار."
+  },
+  {
+   "id": "mask",
+   "cat": "care",
+   "min": 15,
+   "price": 2000,
+   "en": "Black mask",
+   "ar": "ماسك أسود",
+   "den": "Clears pores on the nose and cheeks.",
+   "dar": "ينظف المسام."
+  },
+  {
+   "id": "massage",
+   "cat": "care",
+   "min": 15,
+   "price": 2000,
+   "en": "Head & shoulder massage",
+   "ar": "مساج رأس وأكتاف",
+   "den": "Relax after your cut.",
+   "dar": "استرخاء بعد القصة."
+  }
+ ]
+}
