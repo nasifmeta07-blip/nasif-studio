@@ -231,7 +231,7 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
 .msg.on{display:block}
 .spin{width:20px;height:20px;border:2.5px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite}
 @keyframes sp{to{transform:rotate(360deg)}}
-.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,30px);background:var(--ink);color:#fff;padding:13px 18px;border-radius:14px;font-weight:600;font-size:14.5px;opacity:0;transition:.3s;z-index:70;box-shadow:var(--sh);white-space:nowrap}
+.toast{pointer-events:none;position:fixed;left:50%;bottom:28px;transform:translate(-50%,30px);background:var(--ink);color:#fff;padding:13px 18px;border-radius:14px;font-weight:600;font-size:14.5px;opacity:0;transition:.3s;z-index:70;box-shadow:var(--sh);white-space:nowrap}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 
 /* demo payment sheet + confirmation */
