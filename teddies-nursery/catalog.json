@@ -1,0 +1,29 @@
+{
+  "shop": { "name": "Teddies Nursery" },
+  "registration": 50000,
+  "addons": [
+    { "id": "lunch", "price": 25000, "en": "Healthy lunch", "ar": "غداء صحي", "icon": "🥗" },
+    { "id": "extended", "price": 30000, "en": "Extended care to 4pm", "ar": "رعاية ممتدة حتى ٤م", "icon": "🕓" },
+    { "id": "transport", "price": 35000, "en": "Door-to-door transport", "ar": "توصيل من البيت", "icon": "🚐" }
+  ],
+  "products": [
+    {
+      "id": "toddlers", "art": "rainbow", "tint": "#F6D9C9",
+      "en": { "name": "Little Explorers", "age": "18 months – 3 years", "desc": "Sensory play, first words and practical life skills in a calm, safe room.", "tag": "Ages 1.5–3" },
+      "ar": { "name": "المستكشفون الصغار", "age": "١٨ شهر – ٣ سنوات", "desc": "لعب حسي وأول الكلمات ومهارات الحياة اليومية في غرفة هادئة وآمنة.", "tag": "١.٥–٣ سنوات" },
+      "sizes": [ { "id": "d3", "price": 120000 }, { "id": "d5", "price": 180000 } ]
+    },
+    {
+      "id": "preschool", "art": "blocks", "tint": "#DCE8D6",
+      "en": { "name": "Curious Minds", "age": "3 – 4 years", "desc": "Montessori work cycle, English and Arabic, numbers and lots of outdoor time.", "tag": "Most popular" },
+      "ar": { "name": "العقول الفضولية", "age": "٣ – ٤ سنوات", "desc": "دورة عمل مونتيسوري، إنجليزي وعربي، أرقام ووقت كثير في الخارج.", "tag": "الأكثر طلباً" },
+      "sizes": [ { "id": "d3", "price": 130000 }, { "id": "d5", "price": 195000 } ]
+    },
+    {
+      "id": "prek", "art": "books", "tint": "#D7E7F0",
+      "en": { "name": "School Ready", "age": "4 – 5 years", "desc": "Phonics, early writing and confidence, so they walk into KG1 ready.", "tag": "Pre-K" },
+      "ar": { "name": "جاهزون للمدرسة", "age": "٤ – ٥ سنوات", "desc": "صوتيات وكتابة مبكرة وثقة بالنفس، عشان يدخلون الروضة جاهزين.", "tag": "تمهيدي" },
+      "sizes": [ { "id": "d3", "price": 140000 }, { "id": "d5", "price": 210000 } ]
+    }
+  ]
+}
