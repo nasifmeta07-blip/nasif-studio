@@ -332,7 +332,7 @@ function globeSVG(){return `<svg viewBox="0 0 360 360"><circle cx="180" cy="180"
  <circle cx="214" cy="212" r="7" fill="#E9B76E"/><circle cx="214" cy="212" r="16" fill="none" stroke="#E9B76E" opacity=".5"/>
  ${[[110,120],[150,100],[290,140],[90,230],[250,96]].map(([x,y])=>`<path d="M214 212 Q${(214+x)/2} ${Math.min(y,212)-70} ${x} ${y}" stroke="#E9B76E" stroke-width="2" fill="none" stroke-dasharray="4 6"/><circle cx="${x}" cy="${y}" r="4.5" fill="#F4ECDD"/>`).join("")}</svg>`;}
 
-let lang="en",cart=[],cur=null,curSize=null,curAdds=[],curQty=1,filt="all",deliv="oman";
+let lang="en",cart=[],cur=null,curSize=null,curAdds=[],curQty=1,filt="all",deliv="hotel";
 const $=s=>document.querySelector(s);
 const st={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const t=k=>T[lang][k];
@@ -370,7 +370,7 @@ function renderCart(){
   const {s,d,tot}=totals();$("#count").textContent=cart.reduce((a,c)=>a+c.qty,0);
   $("#lines").innerHTML=cart.length?cart.map((c,i)=>{const p=prod(c.id);return `<div class="line"><span class="thumb">${art(p)}</span><div class="info"><b>${p[lang].name}</b><small>${W[c.size][lang]} · ×${c.qty}</small>${c.adds.length?`<small>+ ${c.adds.map(a=>ADDS.find(x=>x.id===a)[lang]).join("، ")}</small>`:""}<small style="color:var(--ink);font-weight:700">${omr(unit(c)*c.qty)}</small></div><button class="rm" type="button" data-rm="${i}">✕</button></div>`}).join("")
    :`<div style="text-align:center;padding:40px 0;color:var(--muted)"><b style="display:block;color:var(--ink)">${t("emptyT")}</b>${t("emptyP")}</div>`;
-  $("#checkout").hidden=!cart.length;$("#addrWrap").hidden=deliv==="pickup";
+  $("#checkout").hidden=!cart.length;$("#addrWrap").hidden=deliv==="office";
   $("#dopt").innerHTML=DELIV.map(x=>`<button type="button" class="opt" data-del="${x.id}" aria-pressed="${x.id===deliv}"><i class="r"></i><span>${x[lang]}<small>${x.s[lang]}</small></span><em>${x.fee?omr(x.fee):t("free")}</em></button>`).join("");
   $("#sSub").textContent=omr(s);$("#sDel").textContent=d?omr(d):t("free");$("#sTot").textContent=omr(tot);
 }
@@ -391,7 +391,7 @@ $("#openCart").onclick=()=>openDrawer(true);$("#dClose").onclick=()=>openDrawer(
 $("#lang").onclick=()=>{document.body.classList.add("notrans");setTimeout(()=>document.body.classList.remove("notrans"),60);lang=lang==="en"?"ar":"en";st.set("gt_lang",lang);applyLang();};
 $("#pay").onclick=()=>{err("");if(!cart.length)return err("errEmpty");
   const name=$("#name").value.trim(),phone=$("#phone").value.replace(/\s/g,"");
-  if(deliv!=="pickup"&&!$("#addr").value.trim())return err("errAddr");
+  if(deliv!=="office"&&!$("#addr").value.trim())return err("errAddr");
   if(!name||!/^\+?\d{7,15}$/.test(phone))return err("errForm");
   const {tot}=totals();$("#psTot").textContent=omr(tot);$("#psPay").textContent=`${t("psPayBtn")} ${omr(tot)}`;$("#ps").classList.add("on");};
 $("#psCancel").onclick=()=>$("#ps").classList.remove("on");
