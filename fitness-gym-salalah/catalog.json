@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Fitness Gym Salalah"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "member",
+   "en": "Memberships",
+   "ar": "اشتراكات",
+   "icon": "heart"
+  },
+  {
+   "id": "coach",
+   "en": "Coaching",
+   "ar": "تدريب",
+   "icon": "face"
+  },
+  {
+   "id": "day",
+   "en": "Day pass",
+   "ar": "دخول يومي",
+   "icon": "clock"
+  }
+ ],
+ "products": [
+  {
+   "id": "m1",
+   "cat": "member",
+   "min": 30,
+   "price": 15000,
+   "en": "1 month membership",
+   "ar": "اشتراك شهر",
+   "den": "Full gym access.",
+   "dar": "دخول كامل للنادي.",
+   "pop": true
+  },
+  {
+   "id": "m3",
+   "cat": "member",
+   "min": 30,
+   "price": 40000,
+   "en": "3 month membership",
+   "ar": "اشتراك ٣ شهور",
+   "den": "Better price per month.",
+   "dar": "سعر أوفر بالشهر.",
+   "pop": true
+  },
+  {
+   "id": "m12",
+   "cat": "member",
+   "min": 30,
+   "price": 130000,
+   "en": "12 month membership",
+   "ar": "اشتراك سنة",
+   "den": "Best value for the year.",
+   "dar": "أفضل قيمة للسنة."
+  },
+  {
+   "id": "pt1",
+   "cat": "coach",
+   "min": 60,
+   "price": 8000,
+   "en": "Personal training session",
+   "ar": "جلسة تدريب شخصي",
+   "den": "One-to-one with a coach.",
+   "dar": "مع مدرب بشكل فردي."
+  },
+  {
+   "id": "pt10",
+   "cat": "coach",
+   "min": 60,
+   "price": 65000,
+   "en": "10 session coaching pack",
+   "ar": "باقة تدريب ١٠ جلسات",
+   "den": "Plan and weekly follow up.",
+   "dar": "خطة ومتابعة أسبوعية."
+  },
+  {
+   "id": "plan",
+   "cat": "coach",
+   "min": 30,
+   "price": 5000,
+   "en": "Diet and workout plan",
+   "ar": "خطة غذاء وتمرين",
+   "den": "Written plan for your goal.",
+   "dar": "خطة مكتوبة لهدفك."
+  },
+  {
+   "id": "day",
+   "cat": "day",
+   "min": 30,
+   "price": 2000,
+   "en": "Day pass",
+   "ar": "دخول ليوم",
+   "den": "Train for one day.",
+   "dar": "تمرن ليوم واحد."
+  },
+  {
+   "id": "w1",
+   "cat": "day",
+   "min": 30,
+   "price": 8000,
+   "en": "1 week pass",
+   "ar": "دخول أسبوع",
+   "den": "Try it for a week.",
+   "dar": "جربه أسبوع."
+  }
+ ]
+}

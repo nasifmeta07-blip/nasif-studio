@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Redan Dental Clinic"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "check",
+   "en": "Check-up",
+   "ar": "فحص",
+   "icon": "face"
+  },
+  {
+   "id": "care",
+   "en": "Care",
+   "ar": "عناية",
+   "icon": "sparkle"
+  },
+  {
+   "id": "treat",
+   "en": "Treatment",
+   "ar": "علاج",
+   "icon": "tooth"
+  }
+ ],
+ "products": [
+  {
+   "id": "exam",
+   "cat": "check",
+   "min": 30,
+   "price": 3000,
+   "en": "Check-up and X-ray",
+   "ar": "فحص وأشعة",
+   "den": "Full exam with advice.",
+   "dar": "فحص كامل مع نصيحة.",
+   "pop": true
+  },
+  {
+   "id": "clean",
+   "cat": "check",
+   "min": 45,
+   "price": 4500,
+   "en": "Scale and polish",
+   "ar": "تنظيف وتلميع",
+   "den": "Removes plaque and stains.",
+   "dar": "يزيل الجير والبقع.",
+   "pop": true
+  },
+  {
+   "id": "kids",
+   "cat": "check",
+   "min": 30,
+   "price": 3000,
+   "en": "Child check-up",
+   "ar": "فحص أطفال",
+   "den": "Gentle visit for kids.",
+   "dar": "زيارة لطيفة للأطفال."
+  },
+  {
+   "id": "white",
+   "cat": "care",
+   "min": 60,
+   "price": 18000,
+   "en": "Teeth whitening",
+   "ar": "تبييض أسنان",
+   "den": "Brighter smile in one visit.",
+   "dar": "ابتسامة أفتح بزيارة واحدة."
+  },
+  {
+   "id": "fill",
+   "cat": "treat",
+   "min": 45,
+   "price": 6000,
+   "en": "Filling",
+   "ar": "حشوة",
+   "den": "Tooth coloured filling.",
+   "dar": "حشوة بلون السن."
+  },
+  {
+   "id": "root",
+   "cat": "treat",
+   "min": 90,
+   "price": 25000,
+   "en": "Root canal",
+   "ar": "علاج عصب",
+   "den": "Saves the natural tooth.",
+   "dar": "ينقذ السن الطبيعي."
+  },
+  {
+   "id": "crown",
+   "cat": "treat",
+   "min": 60,
+   "price": 30000,
+   "en": "Crown",
+   "ar": "تلبيسة",
+   "den": "Strong, natural look.",
+   "dar": "قوية ومظهر طبيعي."
+  },
+  {
+   "id": "pull",
+   "cat": "treat",
+   "min": 30,
+   "price": 5000,
+   "en": "Extraction",
+   "ar": "خلع",
+   "den": "Comfortable and quick.",
+   "dar": "مريح وسريع."
+  }
+ ]
+}

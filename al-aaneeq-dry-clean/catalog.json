@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Al Aaneeq Dry Clean"
+ },
+ "deposit": 500,
+ "categories": [
+  {
+   "id": "dry",
+   "en": "Dry clean",
+   "ar": "غسيل جاف",
+   "icon": "sparkle"
+  },
+  {
+   "id": "wash",
+   "en": "Laundry",
+   "ar": "غسيل",
+   "icon": "leaf"
+  },
+  {
+   "id": "iron",
+   "en": "Iron and more",
+   "ar": "كوي وأكثر",
+   "icon": "clock"
+  }
+ ],
+ "products": [
+  {
+   "id": "suit",
+   "cat": "dry",
+   "min": 15,
+   "price": 3000,
+   "en": "Suit dry clean",
+   "ar": "غسيل جاف بدلة",
+   "den": "Jacket and trousers.",
+   "dar": "جاكيت وبنطلون.",
+   "pop": true
+  },
+  {
+   "id": "thobe",
+   "cat": "dry",
+   "min": 15,
+   "price": 1200,
+   "en": "Dishdasha dry clean",
+   "ar": "غسيل جاف دشداشة",
+   "den": "Clean and pressed.",
+   "dar": "نظيفة ومكوية.",
+   "pop": true
+  },
+  {
+   "id": "abaya",
+   "cat": "dry",
+   "min": 15,
+   "price": 1500,
+   "en": "Abaya dry clean",
+   "ar": "غسيل جاف عباية",
+   "den": "Gentle on fabric.",
+   "dar": "لطيف على القماش."
+  },
+  {
+   "id": "kilo",
+   "cat": "wash",
+   "min": 15,
+   "price": 1500,
+   "en": "Wash and fold (per kg)",
+   "ar": "غسيل وطي (للكيلو)",
+   "den": "Everyday clothes.",
+   "dar": "ملابس يومية."
+  },
+  {
+   "id": "bed",
+   "cat": "wash",
+   "min": 15,
+   "price": 2500,
+   "en": "Bedding and duvets",
+   "ar": "مفارش ولحاف",
+   "den": "Large items washed.",
+   "dar": "غسيل القطع الكبيرة."
+  },
+  {
+   "id": "curt",
+   "cat": "wash",
+   "min": 15,
+   "price": 3500,
+   "en": "Curtains",
+   "ar": "ستائر",
+   "den": "Washed and pressed.",
+   "dar": "غسيل وكوي."
+  },
+  {
+   "id": "press",
+   "cat": "iron",
+   "min": 15,
+   "price": 400,
+   "en": "Iron only",
+   "ar": "كوي فقط",
+   "den": "Per piece.",
+   "dar": "للقطعة."
+  },
+  {
+   "id": "rush",
+   "cat": "iron",
+   "min": 15,
+   "price": 1500,
+   "en": "Express service",
+   "ar": "خدمة مستعجلة",
+   "den": "Ready the same day.",
+   "dar": "جاهزة بنفس اليوم."
+  }
+ ]
+}

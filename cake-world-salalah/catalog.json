@@ -1,0 +1,41 @@
+{
+ "currency": "OMR",
+ "note": "sample prices",
+ "products": {
+  "choc": {
+   "s": 5500,
+   "m": 8500,
+   "l": 12500
+  },
+  "bueno": {
+   "s": 6500,
+   "m": 9500,
+   "l": 14000
+  },
+  "van": {
+   "s": 5500,
+   "m": 8500,
+   "l": 12500
+  },
+  "croi": {
+   "six": 3500,
+   "twelve": 6500
+  },
+  "muf": {
+   "six": 3000,
+   "twelve": 5500
+  },
+  "brow": {
+   "six": 4000,
+   "twelve": 7500
+  },
+  "cup": {
+   "six": 4500,
+   "twelve": 8500
+  }
+ },
+ "addons": {
+  "candle": 200,
+  "msg": 500
+ }
+}

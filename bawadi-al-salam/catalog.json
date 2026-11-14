@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Bawadi Al Salam"
+ },
+ "deposit": 2000,
+ "categories": [
+  {
+   "id": "sofa",
+   "en": "Sofas",
+   "ar": "كنب",
+   "icon": "sparkle"
+  },
+  {
+   "id": "curtain",
+   "en": "Curtains",
+   "ar": "ستائر",
+   "icon": "leaf"
+  },
+  {
+   "id": "design",
+   "en": "Design",
+   "ar": "تصميم",
+   "icon": "heart"
+  }
+ ],
+ "products": [
+  {
+   "id": "visit",
+   "cat": "sofa",
+   "min": 45,
+   "price": 1000,
+   "en": "Measuring visit",
+   "ar": "زيارة قياس",
+   "den": "We measure and show fabrics.",
+   "dar": "نقيس ونعرض الأقمشة.",
+   "pop": true
+  },
+  {
+   "id": "custom",
+   "cat": "sofa",
+   "min": 60,
+   "price": 45000,
+   "en": "Custom sofa set",
+   "ar": "طقم كنب مفصل",
+   "den": "Made to your size and fabric.",
+   "dar": "حسب مقاسك وقماشك.",
+   "pop": true
+  },
+  {
+   "id": "repair",
+   "cat": "sofa",
+   "min": 60,
+   "price": 8000,
+   "en": "Sofa re-upholstery",
+   "ar": "تنجيد كنب",
+   "den": "New fabric and foam.",
+   "dar": "قماش وإسفنج جديد."
+  },
+  {
+   "id": "curt",
+   "cat": "curtain",
+   "min": 45,
+   "price": 15000,
+   "en": "Curtains per room",
+   "ar": "ستائر لغرفة",
+   "den": "Fabric, sewing and fitting.",
+   "dar": "قماش وخياطة وتركيب."
+  },
+  {
+   "id": "blind",
+   "cat": "curtain",
+   "min": 45,
+   "price": 6000,
+   "en": "Blinds",
+   "ar": "ستائر رول",
+   "den": "Roller and zebra blinds.",
+   "dar": "رول وزيبرا."
+  },
+  {
+   "id": "meet",
+   "cat": "design",
+   "min": 60,
+   "price": 3000,
+   "en": "Design consultation",
+   "ar": "استشارة تصميم",
+   "den": "Colours, layout and ideas.",
+   "dar": "ألوان وتوزيع وأفكار."
+  },
+  {
+   "id": "room",
+   "cat": "design",
+   "min": 120,
+   "price": 25000,
+   "en": "Room makeover plan",
+   "ar": "خطة تجديد غرفة",
+   "den": "Full plan for one room.",
+   "dar": "خطة كاملة لغرفة."
+  },
+  {
+   "id": "maj",
+   "cat": "design",
+   "min": 180,
+   "price": 60000,
+   "en": "Majlis makeover",
+   "ar": "تجديد مجلس",
+   "den": "Seating, curtains and decor.",
+   "dar": "جلسات وستائر وديكور."
+  }
+ ]
+}

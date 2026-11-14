@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Driving School Salalah"
+ },
+ "deposit": 1000,
+ "categories": [
+  {
+   "id": "lessons",
+   "en": "Lessons",
+   "ar": "حصص",
+   "icon": "clock"
+  },
+  {
+   "id": "test",
+   "en": "Test prep",
+   "ar": "تحضير الاختبار",
+   "icon": "leaf"
+  },
+  {
+   "id": "refresh",
+   "en": "Refresher",
+   "ar": "تجديد",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "l1",
+   "cat": "lessons",
+   "min": 45,
+   "price": 1500,
+   "en": "Single lesson",
+   "ar": "حصة واحدة",
+   "den": "45 minutes with a trainer.",
+   "dar": "٤٥ دقيقة مع مدرب.",
+   "pop": true
+  },
+  {
+   "id": "l10",
+   "cat": "lessons",
+   "min": 45,
+   "price": 13000,
+   "en": "10 lesson pack",
+   "ar": "باقة ١٠ حصص",
+   "den": "Better price per lesson.",
+   "dar": "سعر أوفر للحصة.",
+   "pop": true
+  },
+  {
+   "id": "l20",
+   "cat": "lessons",
+   "min": 45,
+   "price": 24000,
+   "en": "20 lesson pack",
+   "ar": "باقة ٢٠ حصة",
+   "den": "Full course to be ready.",
+   "dar": "دورة كاملة للجاهزية."
+  },
+  {
+   "id": "t1",
+   "cat": "test",
+   "min": 45,
+   "price": 2000,
+   "en": "Test route practice",
+   "ar": "تدريب مسار الاختبار",
+   "den": "Practice on the real routes.",
+   "dar": "تدرب على المسارات الحقيقية."
+  },
+  {
+   "id": "t2",
+   "cat": "test",
+   "min": 60,
+   "price": 2500,
+   "en": "Mock test",
+   "ar": "اختبار تجريبي",
+   "den": "Like the real test.",
+   "dar": "مثل الاختبار الحقيقي."
+  },
+  {
+   "id": "r1",
+   "cat": "refresh",
+   "min": 45,
+   "price": 2000,
+   "en": "Refresher lesson",
+   "ar": "حصة تجديد",
+   "den": "For rusty drivers.",
+   "dar": "للي توقف عن القيادة."
+  },
+  {
+   "id": "r2",
+   "cat": "refresh",
+   "min": 45,
+   "price": 2500,
+   "en": "Highway and parking",
+   "ar": "طريق سريع وركن",
+   "den": "Build confidence.",
+   "dar": "ثقة أكبر."
+  },
+  {
+   "id": "r3",
+   "cat": "refresh",
+   "min": 45,
+   "price": 2500,
+   "en": "Night driving",
+   "ar": "قيادة ليلية",
+   "den": "Practice after dark.",
+   "dar": "تدرب بعد الغروب."
+  }
+ ]
+}

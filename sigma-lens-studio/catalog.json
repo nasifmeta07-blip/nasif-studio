@@ -1,0 +1,110 @@
+{
+ "shop": {
+  "name": "Sigma Lens Studio"
+ },
+ "deposit": 2000,
+ "categories": [
+  {
+   "id": "photo",
+   "en": "Photo",
+   "ar": "تصوير",
+   "icon": "face"
+  },
+  {
+   "id": "video",
+   "en": "Video",
+   "ar": "فيديو",
+   "icon": "clock"
+  },
+  {
+   "id": "event",
+   "en": "Events",
+   "ar": "مناسبات",
+   "icon": "sparkle"
+  }
+ ],
+ "products": [
+  {
+   "id": "portrait",
+   "cat": "photo",
+   "min": 45,
+   "price": 8000,
+   "en": "Studio portrait",
+   "ar": "بورتريه استوديو",
+   "den": "Lit and edited portraits.",
+   "dar": "بورتريه بإضاءة وتعديل.",
+   "pop": true
+  },
+  {
+   "id": "family",
+   "cat": "photo",
+   "min": 60,
+   "price": 12000,
+   "en": "Family session",
+   "ar": "جلسة عائلية",
+   "den": "Group photos in studio.",
+   "dar": "صور جماعية في الاستوديو."
+  },
+  {
+   "id": "pass",
+   "cat": "photo",
+   "min": 15,
+   "price": 1500,
+   "en": "Passport and ID photos",
+   "ar": "صور جواز وهوية",
+   "den": "Ready in minutes.",
+   "dar": "جاهزة خلال دقائق."
+  },
+  {
+   "id": "short",
+   "cat": "video",
+   "min": 120,
+   "price": 25000,
+   "en": "Short promo video",
+   "ar": "فيديو ترويجي قصير",
+   "den": "Filmed and edited.",
+   "dar": "تصوير ومونتاج.",
+   "pop": true
+  },
+  {
+   "id": "reel",
+   "cat": "video",
+   "min": 90,
+   "price": 15000,
+   "en": "Social media reel",
+   "ar": "ريل سوشال ميديا",
+   "den": "Quick, eye-catching reel.",
+   "dar": "ريل سريع وجذاب."
+  },
+  {
+   "id": "ev",
+   "cat": "event",
+   "min": 240,
+   "price": 45000,
+   "en": "Event coverage",
+   "ar": "تغطية مناسبة",
+   "den": "Photos and video of your event.",
+   "dar": "صور وفيديو لمناسبتك."
+  },
+  {
+   "id": "wed",
+   "cat": "event",
+   "min": 480,
+   "price": 90000,
+   "en": "Wedding package",
+   "ar": "باقة زواج",
+   "den": "Full day coverage.",
+   "dar": "تغطية يوم كامل."
+  },
+  {
+   "id": "biz",
+   "cat": "event",
+   "min": 120,
+   "price": 20000,
+   "en": "Product photography",
+   "ar": "تصوير منتجات",
+   "den": "Clean photos for your shop.",
+   "dar": "صور نظيفة لمتجرك."
+  }
+ ]
+}
