@@ -1,0 +1,111 @@
+{
+ "shop": {
+  "name": "For You Spa"
+ },
+ "deposit": 3000,
+ "categories": [
+  {
+   "id": "massage",
+   "en": "Massage",
+   "ar": "المساج",
+   "icon": "wave"
+  },
+  {
+   "id": "face",
+   "en": "Facials",
+   "ar": "العناية بالوجه",
+   "icon": "sparkle"
+  },
+  {
+   "id": "body",
+   "en": "Body care",
+   "ar": "العناية بالجسم",
+   "icon": "leaf"
+  }
+ ],
+ "products": [
+  {
+   "id": "swed",
+   "cat": "massage",
+   "min": 60,
+   "price": 18000,
+   "en": "Relaxation massage",
+   "ar": "مساج استرخاء",
+   "den": "Full body, light to medium pressure.",
+   "dar": "كامل الجسم بضغط خفيف إلى متوسط.",
+   "pop": true
+  },
+  {
+   "id": "deep",
+   "cat": "massage",
+   "min": 60,
+   "price": 22000,
+   "en": "Deep tissue massage",
+   "ar": "مساج عميق",
+   "den": "Targets tight muscles and knots.",
+   "dar": "يستهدف العضلات المشدودة."
+  },
+  {
+   "id": "hot",
+   "cat": "massage",
+   "min": 75,
+   "price": 28000,
+   "en": "Hot stone massage",
+   "ar": "مساج بالأحجار الساخنة",
+   "den": "Warm stones melt away tension.",
+   "dar": "أحجار دافئة تذيب التعب."
+  },
+  {
+   "id": "gold",
+   "cat": "face",
+   "min": 60,
+   "price": 30000,
+   "en": "Gold facial",
+   "ar": "فيشل الذهب",
+   "den": "Glow treatment with 24k gold serum.",
+   "dar": "علاج إشراق بسيروم الذهب.",
+   "pop": true
+  },
+  {
+   "id": "clean",
+   "cat": "face",
+   "min": 45,
+   "price": 15000,
+   "en": "Deep cleansing facial",
+   "ar": "تنظيف بشرة عميق",
+   "den": "Cleanse, steam and hydrate.",
+   "dar": "تنظيف وبخار وترطيب."
+  },
+  {
+   "id": "body",
+   "cat": "body",
+   "min": 60,
+   "price": 25000,
+   "en": "Moroccan bath",
+   "ar": "حمام مغربي",
+   "den": "Steam, scrub and wrap.",
+   "dar": "بخار وتقشير ولف.",
+   "pop": true
+  },
+  {
+   "id": "scrub",
+   "cat": "body",
+   "min": 45,
+   "price": 16000,
+   "en": "Body scrub",
+   "ar": "تقشير الجسم",
+   "den": "Smooth, soft skin.",
+   "dar": "بشرة ناعمة وملساء."
+  },
+  {
+   "id": "pack",
+   "cat": "body",
+   "min": 90,
+   "price": 45000,
+   "en": "Spa day package",
+   "ar": "باقة يوم سبا",
+   "den": "Massage, facial and bath.",
+   "dar": "مساج وفيشل وحمام."
+  }
+ ]
+}
