@@ -138,6 +138,7 @@
     .lead{font-size:16px}
   }
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.notrans .drawer,.notrans .modal{transition:none!important}
 </style>
 </head>
 <body>
@@ -339,7 +340,7 @@ $('#openCart').onclick = () => openCart(true);
 $('#closeCart').onclick = () => openCart(false);
 $('#scrim').onclick = () => openCart(false);
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') openCart(false); });
-$('#lang').onclick = () => { lang = lang === 'en' ? 'ar' : 'en'; store.set('ss_lang', lang); applyLang(); };
+$('#lang').onclick = () => { document.body.classList.add('notrans'); setTimeout(()=>document.body.classList.remove('notrans'),60); lang = lang === 'en' ? 'ar' : 'en'; store.set('ss_lang', lang); applyLang(); };
 
 $('#pay').onclick = async () => {
   showMsg('');

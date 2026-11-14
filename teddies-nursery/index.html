@@ -201,6 +201,7 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}.show-drawer .drawer{transfo
   .m-body{padding:24px 20px 22px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.notrans .drawer,.notrans .modal{transition:none!important}
 </style>
 </head>
 <body>
@@ -467,7 +468,7 @@ $("#mAdd").onclick=addToCart;$("#mClose").onclick=closeModal;
 $("#openCart").onclick=()=>openDrawer(true);$("#dClose").onclick=()=>openDrawer(false);
 $("#scrim").onclick=()=>{closeModal();openDrawer(false);};
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();openDrawer(false);$("#ps").classList.remove("on");}});
-$("#lang").onclick=()=>{lang=lang==="en"?"ar":"en";st.set("td_lang",lang);applyLang();};
+$("#lang").onclick=()=>{ document.body.classList.add('notrans'); setTimeout(()=>document.body.classList.remove('notrans'),60);lang=lang==="en"?"ar":"en";st.set("td_lang",lang);applyLang();};
 window.addEventListener("scroll",()=>$("#hdr").classList.toggle("scrolled",scrollY>8),{passive:true});
 $("#pay").onclick=()=>{err("");const name=$("#name").value.trim(),phone=$("#phone").value.trim();
   if(!cart.length)return err("errEmpty");if(!name||!/^\+?\d[\d\s]{6,16}$/.test(phone))return err("errForm");

@@ -298,6 +298,7 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
   .size{min-width:0;flex:1 1 40%}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.notrans .drawer,.notrans .modal{transition:none!important}
 </style>
 </head>
 <body>
@@ -706,7 +707,7 @@ $("#openCart").onclick = () => openDrawer(true);
 $("#dClose").onclick = () => openDrawer(false);
 $("#scrim").onclick = () => { closeModal(); openDrawer(false); };
 document.addEventListener("keydown", e => { if (e.key === "Escape"){ closeModal(); openDrawer(false); } });
-$("#lang").onclick = () => { lang = lang === "en" ? "ar" : "en"; st.set("cd_lang", lang); applyLang(); };
+$("#lang").onclick = () => { document.body.classList.add('notrans'); setTimeout(()=>document.body.classList.remove('notrans'),60); lang = lang === "en" ? "ar" : "en"; st.set("cd_lang", lang); applyLang(); };
 window.addEventListener("scroll", () => $("#hdr").classList.toggle("scrolled", scrollY > 8), { passive: true });
 
 const DEMO = true; // mockup: no real payment, shows a labelled demo step instead
